@@ -20,6 +20,15 @@ public class MaleKnightCustomiser : MonoBehaviour
     public SkinnedMeshRenderer Hips;
     public SkinnedMeshRenderer RightLegs;
     public SkinnedMeshRenderer LeftLegs;
+    public SkinnedMeshRenderer Hairs;
+    public SkinnedMeshRenderer HelmetAttachments;
+    public SkinnedMeshRenderer BackAttachments;
+    public SkinnedMeshRenderer RightShoulderAttachments;
+    public SkinnedMeshRenderer LeftShoulderAttachments;
+    public SkinnedMeshRenderer RightElbowAttachments;
+    public SkinnedMeshRenderer LeftElbowAttachments;
+    public SkinnedMeshRenderer RightKneeAttachments;
+    public SkinnedMeshRenderer LeftKneeAttachments;
 
 
     public void Randomise()
@@ -42,6 +51,18 @@ public class MaleKnightCustomiser : MonoBehaviour
         int legIndex = Random.Range(0, MaleKnightSO.LegRightMesh.Length);
         RightLegs.sharedMesh = MaleKnightSO.LegRightMesh[legIndex];
         LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[legIndex];
+        Hairs.sharedMesh = MaleKnightSO.HairMesh[Random.Range(0, MaleKnightSO.HairMesh.Length)];
+        HelmetAttachments.sharedMesh = MaleKnightSO.HelmetAttachmentMesh[Random.Range(0, MaleKnightSO.HelmetAttachmentMesh.Length)];
+        BackAttachments.sharedMesh = MaleKnightSO.BackAttachmentMesh[Random.Range(0, MaleKnightSO.BackAttachmentMesh.Length)];
+        int shoulderAttachIndex = Random.Range(0, MaleKnightSO.RightShoulderAttachmentMesh.Length);
+        RightShoulderAttachments.sharedMesh = MaleKnightSO.RightShoulderAttachmentMesh[shoulderAttachIndex];
+        LeftShoulderAttachments.sharedMesh = MaleKnightSO.LeftShoulderAttachmentMesh[shoulderAttachIndex];
+        int elbowAttachIndex = Random.Range(0, MaleKnightSO.RightElbowAttachmentMesh.Length);
+        RightElbowAttachments.sharedMesh = MaleKnightSO.RightElbowAttachmentMesh[elbowAttachIndex];
+        LeftElbowAttachments.sharedMesh = MaleKnightSO.LeftElbowAttachmentMesh[elbowAttachIndex];
+        int kneeAttachIndex = Random.Range(0, MaleKnightSO.RightKneeAttachmentMesh.Length);
+        RightKneeAttachments.sharedMesh = MaleKnightSO.RightKneeAttachmentMesh[elbowAttachIndex];
+        LeftKneeAttachments.sharedMesh = MaleKnightSO.LeftKneeAttachmentMesh[elbowAttachIndex];
 
     }
 

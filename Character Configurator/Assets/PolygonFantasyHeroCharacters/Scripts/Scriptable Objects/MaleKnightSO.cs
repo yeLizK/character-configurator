@@ -14,25 +14,44 @@ public class MaleKnightSO : ScriptableObject
     public Mesh[] EyebrowsMesh;
 
     public Mesh[] FacialHairMesh;
-    
+
     public Mesh[] TorsoMesh;
-    
+
     public Mesh[] ArmUpperRightMesh;
-    
+
     public Mesh[] ArmUpperLeftMesh;
-    
+
     public Mesh[] ArmLowerRightMesh;
-    
+
     public Mesh[] ArmLowerLeftMesh;
-    
+
     public Mesh[] RightHandMesh;
-    
+
     public Mesh[] LeftHandMesh;
 
     public Mesh[] HipsMesh;
-    
+
     public Mesh[] LegRightMesh;
-    
+
     public Mesh[] LegLeftMesh;
+
+    public Mesh[] HairMesh;
+
+    public Mesh[] HelmetAttachmentMesh;
+
+    public Mesh[] BackAttachmentMesh;
+
+    public Mesh[] RightShoulderAttachmentMesh;
+
+    public Mesh[] LeftShoulderAttachmentMesh;
+
+    public Mesh[] RightElbowAttachmentMesh;
+
+    public Mesh[] LeftElbowAttachmentMesh;
+
+    public Mesh[] RightKneeAttachmentMesh;
+
+    public Mesh[] LeftKneeAttachmentMesh;
+
     
 }
