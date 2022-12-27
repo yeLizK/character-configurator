@@ -8,6 +8,9 @@ public class UIManager : MonoBehaviour
     public GameObject FirstScreen;
     public GameObject SecondScreen;
     public GameObject ModularChar;
+    public GameObject HeadSelectionPanel;
+    public GameObject UpperBodySelectionPanel;
+    public GameObject LowerBodySelectionPanel;
 
     private Camera mainCamera;
     private Vector3 cameraDefaultPos;
@@ -39,26 +42,35 @@ public class UIManager : MonoBehaviour
 
     public void SetCameraToHeadPos() 
     {
-        
+        HeadSelectionPanel.SetActive(true);
+        UpperBodySelectionPanel.SetActive(false);
+        LowerBodySelectionPanel.SetActive(false);
         mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos,headPos, 1f );
 
     }
     public void SetCameraToUpperBodyPos()
     {
-
+        HeadSelectionPanel.SetActive(false);
+        UpperBodySelectionPanel.SetActive(true);
+        LowerBodySelectionPanel.SetActive(false);
         mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, UpperBodyPos, 5f);
 
     }
 
     public void SetCameraToLowerBodyPos()
     {
-
+        HeadSelectionPanel.SetActive(false);
+        UpperBodySelectionPanel.SetActive(false);
+        LowerBodySelectionPanel.SetActive(true);
         mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, LowerBodyPos, 5f);
 
     }
 
     public void SetCameraToDefaultPos()
     {
+        HeadSelectionPanel.SetActive(false);
+        UpperBodySelectionPanel.SetActive(false);
+        LowerBodySelectionPanel.SetActive(false);
         mainCamera.transform.position = Vector3.Slerp(mainCamera.transform.position, cameraDefaultPos, 5f);
     }
 

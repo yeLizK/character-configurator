@@ -37,6 +37,7 @@ MonoBehaviour:
   - {fileID: 4300000, guid: d13a10408dcd2b8439459943747bb10e, type: 2}
   - {fileID: 4300000, guid: 45b4974d00be48e4397ead1265d883ec, type: 2}
   HeadArmorMesh:
+  - {fileID: 0}
   - {fileID: 4300000, guid: 00550309414b27b41a7c130e77926c09, type: 2}
   - {fileID: 4300000, guid: 9b6e44b4e9269d442adb76341eace35f, type: 2}
   - {fileID: 4300000, guid: 9b6e44b4e9269d442adb76341eace35f, type: 2}
@@ -50,8 +51,8 @@ MonoBehaviour:
   - {fileID: 4300000, guid: ebdaeaf0d4261614185077942e94ccf7, type: 2}
   - {fileID: 4300000, guid: e688c0063e0cb8145a379c783beeef78, type: 2}
   - {fileID: 4300000, guid: f8a6e34893c8ff34d984daf94d5ddd41, type: 2}
-  - {fileID: 0}
   EyebrowsMesh:
+  - {fileID: 0}
   - {fileID: 4300000, guid: a8643aed9b67b3443b972976119432e8, type: 2}
   - {fileID: 4300000, guid: b0a28ecc6cf60634f90b9201febbc03b, type: 2}
   - {fileID: 4300000, guid: 7beb31c7ba92b9b489016ef622566a7a, type: 2}
@@ -62,8 +63,8 @@ MonoBehaviour:
   - {fileID: 4300000, guid: 5c9cf27d133e60146b6562bb3d3a2335, type: 2}
   - {fileID: 4300000, guid: e7fc7406958c8f44089f7944735cea9e, type: 2}
   - {fileID: 4300000, guid: 5a84fb96836468140b589c1c25dc74d4, type: 2}
-  - {fileID: 0}
   FacialHairMesh:
+  - {fileID: 0}
   - {fileID: 4300000, guid: dc6de4856767da840ad8ea922b56e201, type: 2}
   - {fileID: 4300000, guid: c016da1861da0ac4d9ce6ebcb42fe339, type: 2}
   - {fileID: 4300000, guid: ac5690deca6ee934db47458bf8e9d89a, type: 2}
@@ -82,7 +83,6 @@ MonoBehaviour:
   - {fileID: 4300000, guid: fa2b183cf6f7b0e4fb14173bc90f91b7, type: 2}
   - {fileID: 4300000, guid: 146085f0dd93bb441a229bca0e17ad27, type: 2}
   - {fileID: 4300000, guid: f8290c965fe77f04da90cec99f93befa, type: 2}
-  - {fileID: 0}
   TorsoMesh:
   - {fileID: 4300000, guid: f1529d5024fcd7248806e75842908e74, type: 2}
   - {fileID: 4300000, guid: 7d70e42ba0b94c8488de8d7c6f167313, type: 2}
@@ -241,12 +241,9 @@ MonoBehaviour:
   - {fileID: 4300000, guid: 5182b01258d2e28468a528717ea519a4, type: 2}
   - {fileID: 4300000, guid: 9fda5d2a9d26bc647b62bf0b06e43cad, type: 2}
   - {fileID: 4300000, guid: 78f80cd9f7d97d440bce52a31ed032c5, type: 2}
-  - {fileID: 4300000, guid: 846738131171d9f488cd7f3f7f936771, type: 2}
   - {fileID: 4300000, guid: a6e89105c3880f64e91b310dceee85a1, type: 2}
   - {fileID: 4300000, guid: bccbc83ae1e7401459c852e557a0cf34, type: 2}
-  - {fileID: 4300000, guid: 9b166b8f80d671f46ac4ae2a3a7d2030, type: 2}
   - {fileID: 4300000, guid: a32f2aef912b1df438f8cfe9a3025cdc, type: 2}
-  - {fileID: 4300000, guid: 744c1475a5660c14e8a5db8e00ca1d57, type: 2}
   - {fileID: 4300000, guid: caf50a6c5f5ef6e4fab3a4d71be61766, type: 2}
   - {fileID: 4300000, guid: ce777f976afc5a44d9a66f4f6dc6dc28, type: 2}
   - {fileID: 4300000, guid: c939267a250f3c646b692a757d3fbdd4, type: 2}
