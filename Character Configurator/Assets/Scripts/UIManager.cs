@@ -120,6 +120,4 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
             mouseInitialPos = Input.mousePosition;
         }
     }
-
-    public void ApplicationClose() { Debug.Log("Application Closed!"); }
 }

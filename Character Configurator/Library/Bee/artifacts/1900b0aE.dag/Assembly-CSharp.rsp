@@ -356,6 +356,7 @@
 "Assets/PolygonFantasyHeroCharacters/Scripts/CharacterRandomizer.cs"
 "Assets/PolygonFantasyHeroCharacters/Scripts/Scriptable Objects/MaleKnightSO.cs"
 "Assets/Scripts/CharacterManager.cs"
+"Assets/Scripts/MainMenu/MenuUIController.cs"
 "Assets/Scripts/MaleKnightCustomiser.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
