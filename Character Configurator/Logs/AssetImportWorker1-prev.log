@@ -1,0 +1,320 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/GitHub/character-configurator/Character Configurator
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53037
+Successfully changed project path to: C:/GitHub/character-configurator/Character Configurator
+C:/GitHub/character-configurator/Character Configurator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6720] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 2845037093 [EditorId] 2845037093 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6720] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 2845037093 [EditorId] 2845037093 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 92.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/character-configurator/Character Configurator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010024 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3841.
+Memory consumption went from 122.0 MB to 121.9 MB.
+Total: 2.803300 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.327900 ms  DeleteObjects: 0.115400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1344350.863104 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_05.mesh
+  artifactKey: Guid(2221710836ef7cc4586e150dbcd8e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_05.mesh using Guid(2221710836ef7cc4586e150dbcd8e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c7b48c831b37de53cf7f77aefad2d') in 0.105063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_17.mesh
+  artifactKey: Guid(75c2f2285d4bf2d48a93ede46b0a7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_17.mesh using Guid(75c2f2285d4bf2d48a93ede46b0a7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae64c6d8ddbc5ac620b71460cc12d868') in 0.012918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_03.mesh
+  artifactKey: Guid(5fe849ebdd9f98946b6f85b2046f909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_03.mesh using Guid(5fe849ebdd9f98946b6f85b2046f909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f763221570e3e62408b6c29cf0363f6') in 0.017284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_03.mesh
+  artifactKey: Guid(4db89c0f0e942ce4aafabeaa3197b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_03.mesh using Guid(4db89c0f0e942ce4aafabeaa3197b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eac660ca4692e0416ad9cfa01d3e3c5') in 0.017071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_07.mesh
+  artifactKey: Guid(79f123b48dd385d47af75e4806feb7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_07.mesh using Guid(79f123b48dd385d47af75e4806feb7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9a9a4f2b3879722f7df6df5fb3af1d') in 0.016424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_04.mesh
+  artifactKey: Guid(5871b42138770f74db800d7310523998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_04.mesh using Guid(5871b42138770f74db800d7310523998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9228e2d449ebe35171135ff64b79ad16') in 0.011527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_06.mesh
+  artifactKey: Guid(6970ea615672e3947b1a6ecaf5194f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_06.mesh using Guid(6970ea615672e3947b1a6ecaf5194f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f1831daebe7f994acfeed1fe852bc4') in 0.011890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_05.mesh
+  artifactKey: Guid(d536ed8ce955024459b48d8afe4694a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_05.mesh using Guid(d536ed8ce955024459b48d8afe4694a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe0852e81c45a491287e591ff87e4b1') in 0.009612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_02.mesh
+  artifactKey: Guid(8e2268daa397a9d429a7b2f053e77f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_02.mesh using Guid(8e2268daa397a9d429a7b2f053e77f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f9f2a6fea7ce062f60bb9684accd6c') in 0.016774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_03.mesh
+  artifactKey: Guid(027a0a338c0e336459a72fa648812b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_03.mesh using Guid(027a0a338c0e336459a72fa648812b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b80fc65282e6ba7f121cb009af54e') in 0.010317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_00.mesh
+  artifactKey: Guid(79fe28a15644315498c000509a38f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_00.mesh using Guid(79fe28a15644315498c000509a38f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8c5ebccc5d24276465378fd8c48b21') in 0.010443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_06.mesh
+  artifactKey: Guid(458d561c64610d74c98d37f4ad6e5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_06.mesh using Guid(458d561c64610d74c98d37f4ad6e5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af8947ddf55773a247183ac51dfa5c8') in 0.011066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_02.mesh
+  artifactKey: Guid(094cc163ff6b81e40bdd109441f129ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_02.mesh using Guid(094cc163ff6b81e40bdd109441f129ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0e54915fe139d0c851913b933a97cf') in 0.011079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_01.mesh
+  artifactKey: Guid(fbafbc406e895ed4fa93655726b6f75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_01.mesh using Guid(fbafbc406e895ed4fa93655726b6f75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed931b5868201f1349d4e9fa7572f8c1') in 0.015631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_02.mesh
+  artifactKey: Guid(2959741a7f76a6243a7750dae7b4ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_02.mesh using Guid(2959741a7f76a6243a7750dae7b4ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0bcf86fc90033d0e87d3bb78698bb9') in 0.010464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmLowerLeft_Female_17.mesh
+  artifactKey: Guid(1046631c639dd674391f74b4d9194d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmLowerLeft_Female_17.mesh using Guid(1046631c639dd674391f74b4d9194d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409cec47d54a1ec4b9fa93e9b217e210') in 0.015160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_00.mesh
+  artifactKey: Guid(6c04c02366d138b4a855c95122eb8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_00.mesh using Guid(6c04c02366d138b4a855c95122eb8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64e21a9504d3ba3ca20b997d0456eac') in 0.014757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_09.mesh
+  artifactKey: Guid(ed08c7e21c6e23945a479d65ff5614e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_09.mesh using Guid(ed08c7e21c6e23945a479d65ff5614e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0f141fd13b4e61284bf6945a4e198') in 0.011406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_07.mesh
+  artifactKey: Guid(d6fecedba20144240bc0aa4fdd3c6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerLeft_Male_07.mesh using Guid(d6fecedba20144240bc0aa4fdd3c6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa37e6711d94304838d40e4dd238fc47') in 0.011006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_11.mesh
+  artifactKey: Guid(5e9d349385208284fa56d73f29c23695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmLowerRight_Female_11.mesh using Guid(5e9d349385208284fa56d73f29c23695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04903c119fee7ad989495c660b5e5e30') in 0.016374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_06.mesh
+  artifactKey: Guid(9a9a170fc0c8c0441b79b5a40a213c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_06.mesh using Guid(9a9a170fc0c8c0441b79b5a40a213c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c23de0e21dedd3f638d3457557e3029') in 0.010556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_08.mesh
+  artifactKey: Guid(143ea3ca2981e774c847c4e033e8b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_08.mesh using Guid(143ea3ca2981e774c847c4e033e8b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a193fbcf85991432c852c552195978') in 0.011604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_00.mesh
+  artifactKey: Guid(74ccbca9eb34e4e4c86935163fe5bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_00.mesh using Guid(74ccbca9eb34e4e4c86935163fe5bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe875c9b872e4956075d01f69094d8b6') in 0.011532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_07.mesh
+  artifactKey: Guid(d5465120cae10e141afb6af1324a0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmLowerRight_Male_07.mesh using Guid(d5465120cae10e141afb6af1324a0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84bab3bc135db22e622f0334cdc57ad') in 0.011024 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -50,16 +50,16 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     {
         FirstScreen.SetActive(true);
         SecondScreen.SetActive(false);
-        ModularChar.transform.position = new Vector3(0.273f, 0, -6.448f);
-        ModularChar.transform.rotation = Quaternion.Euler(0, -170, 0);
+        //ModularChar.transform.position = new Vector3(0.273f, 0, -6.448f);
+        //ModularChar.transform.rotation = Quaternion.Euler(0, -170, 0);
         SetCameraToDefaultPos();
     }
     public void OpenSecondScreen() 
     {
         FirstScreen.SetActive(false);
         SecondScreen.SetActive(true);
-        ModularChar.transform.position = new Vector3(-0.62f, 0, -6.291f);
-        ModularChar.transform.rotation = Quaternion.Euler(0, 170, 0);
+        //ModularChar.transform.position = new Vector3(-0.62f, 0, -6.291f);
+        //ModularChar.transform.rotation = Quaternion.Euler(0, 170, 0);
     }
 
     public void SetCameraToHeadPos() 
