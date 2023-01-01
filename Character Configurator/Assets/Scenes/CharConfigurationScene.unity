@@ -2042,7 +2042,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 266453500}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: ChooseKnight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: UpdateMaterial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &266453500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3524,6 +3548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaleKnightSO: {fileID: 11400000, guid: 04b48d8b468f1d149bad66c38d17d25f, type: 2}
+  raceMaterial: {fileID: 0}
   Skins: {fileID: 137384751768772818}
   HeadArmors: {fileID: 137789627379569568}
   Eyebrows: {fileID: 137274208274688632}
@@ -9209,7 +9234,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1261484282}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: ChooseHighFolks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: UpdateMaterial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1261484282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11068,7 +11117,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1631242920}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: ChooseMage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 482008799}
+        m_TargetAssemblyTypeName: MaleKnightCustomiser, Assembly-CSharp
+        m_MethodName: UpdateMaterial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1631242920
 MonoBehaviour:
   m_ObjectHideFlags: 0

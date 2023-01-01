@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9dbb02484d9304094a1e18d1753ab9, type: 3}
   m_Name: MaleKnightSO
   m_EditorClassIdentifier: 
-  Materials: []
+  Materials:
+  - {fileID: 2100000, guid: 014fbaa82701c3f4bbd9c27c7a0650e5, type: 2}
+  - {fileID: 2100000, guid: c19fc8bc0b028bf4b8e1a14d2bee1aba, type: 2}
+  - {fileID: 2100000, guid: 1266fdea207e3a24b94766f9ef184d0f, type: 2}
   SkinMesh:
   - {fileID: 4300000, guid: f4edf962e8defff498d7bc5f1f96d72a, type: 2}
   - {fileID: 4300000, guid: 4b6fb85df4f9dac4faa77ef0bf70ebc6, type: 2}

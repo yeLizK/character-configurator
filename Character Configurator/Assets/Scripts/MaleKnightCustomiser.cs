@@ -7,6 +7,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 {
     public MaleKnightSO MaleKnightSO;
 
+    public Material raceMaterial;
+
     public SkinnedMeshRenderer Skins;
     public SkinnedMeshRenderer HeadArmors;
     public SkinnedMeshRenderer Eyebrows;
@@ -96,6 +98,7 @@ public class MaleKnightCustomiser : MonoBehaviour
                 headIndex = 0;
             }
             Skins.sharedMesh = MaleKnightSO.SkinMesh[headIndex];
+            Skins.sharedMaterial = raceMaterial;
             HeadText.text = "Head " + (headIndex + 1);
         }
  
@@ -115,6 +118,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             }
 
             Skins.sharedMesh = MaleKnightSO.SkinMesh[headIndex];
+            Skins.sharedMaterial = raceMaterial;
             HeadText.text = "Head " + (headIndex + 1);
         }
     }
@@ -132,6 +136,7 @@ public class MaleKnightCustomiser : MonoBehaviour
                 eyebrowIndex = 0;
             }
             Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[eyebrowIndex];
+            Eyebrows.sharedMaterial = raceMaterial;
             EyebrowText.text = "Eyebrows " + (eyebrowIndex + 1);
         }
     }
@@ -149,6 +154,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             }
 
             Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[eyebrowIndex];
+            Eyebrows.sharedMaterial = raceMaterial;
             EyebrowText.text = "Eyebrows " + (eyebrowIndex + 1);
         }
     }
@@ -166,6 +172,7 @@ public class MaleKnightCustomiser : MonoBehaviour
                 facialHairIndex = 0;
             }
             FacialHairs.sharedMesh = MaleKnightSO.FacialHairMesh[facialHairIndex];
+            FacialHairs.sharedMaterial = raceMaterial;
             FacialHairText.text = "Facial Hair " + (facialHairIndex + 1);
         }
     }
@@ -183,6 +190,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             }
 
             FacialHairs.sharedMesh = MaleKnightSO.FacialHairMesh[facialHairIndex];
+            FacialHairs.sharedMaterial = raceMaterial;
             FacialHairText.text = "Facial Hair " + (facialHairIndex + 1);
         }
     }
@@ -198,6 +206,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             headArmorIndex = 0;
         }
         HeadArmors.sharedMesh = MaleKnightSO.HeadArmorMesh[headArmorIndex];
+        HeadArmors.sharedMaterial = raceMaterial;
         HeadArmorText.text = "Head Armor " + (headArmorIndex + 1);
 
         if (headArmorIndex != 0)
@@ -225,6 +234,7 @@ public class MaleKnightCustomiser : MonoBehaviour
         }
 
         HeadArmors.sharedMesh = MaleKnightSO.HeadArmorMesh[headArmorIndex];
+        HeadArmors.sharedMaterial = raceMaterial;
         HeadArmorText.text = "Head Armor " + (headArmorIndex + 1);
 
         if (headArmorIndex != 0)
@@ -251,6 +261,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             torsoIndex = 0;
         }
         Torsos.sharedMesh = MaleKnightSO.TorsoMesh[torsoIndex];
+        Torsos.sharedMaterial = raceMaterial;
         TorsoText.text = "Torso " + (torsoIndex + 1);
     }
     public void TorsoSelectionLeft()
@@ -265,6 +276,7 @@ public class MaleKnightCustomiser : MonoBehaviour
         }
 
         Torsos.sharedMesh = MaleKnightSO.TorsoMesh[torsoIndex];
+        Torsos.sharedMaterial = raceMaterial;
         TorsoText.text = "Torso " + (torsoIndex + 1);
     }
     public void UpperArmSelectionRight() 
@@ -280,6 +292,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         ArmUpperRights.sharedMesh = MaleKnightSO.ArmUpperRightMesh[upperArmIndex];
         ArmUpperLefts.sharedMesh = MaleKnightSO.ArmUpperLeftMesh[upperArmIndex];
+        ArmUpperRights.sharedMaterial = raceMaterial;
+        ArmUpperLefts.sharedMaterial = raceMaterial;
         UpperArmText.text = "Upper Arm " + (upperArmIndex + 1);
     }
     public void UpperArmSelectionLeft() 
@@ -295,6 +309,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         ArmUpperRights.sharedMesh = MaleKnightSO.ArmUpperRightMesh[upperArmIndex];
         ArmUpperLefts.sharedMesh = MaleKnightSO.ArmUpperLeftMesh[upperArmIndex];
+        ArmUpperRights.sharedMaterial = raceMaterial;
+        ArmUpperLefts.sharedMaterial = raceMaterial;
         UpperArmText.text = "Upper Arm " + (upperArmIndex + 1);
     }
     public void LowerArmSelectionRight() 
@@ -310,6 +326,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         ArmLowerRights.sharedMesh = MaleKnightSO.ArmLowerRightMesh[lowerArmIndex];
         ArmLowerLefts.sharedMesh = MaleKnightSO.ArmLowerLeftMesh[lowerArmIndex];
+        ArmLowerRights.sharedMaterial = raceMaterial;
+        ArmLowerLefts.sharedMaterial = raceMaterial;
         LowerArmText.text = "Lower Arm " + (lowerArmIndex + 1);
     }
     public void LowerArmSelectionLeft() 
@@ -325,6 +343,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         ArmLowerRights.sharedMesh = MaleKnightSO.ArmLowerRightMesh[lowerArmIndex];
         ArmLowerLefts.sharedMesh = MaleKnightSO.ArmLowerLeftMesh[lowerArmIndex];
+        ArmLowerRights.sharedMaterial = raceMaterial;
+        ArmLowerLefts.sharedMaterial = raceMaterial;
         LowerArmText.text = "Lower Arm " + (lowerArmIndex + 1);
     }
     public void HandSelectionRight()
@@ -340,6 +360,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         RightHands.sharedMesh = MaleKnightSO.RightHandMesh[handIndex];
         LeftHands.sharedMesh = MaleKnightSO.LeftHandMesh[handIndex];
+        RightHands.sharedMaterial = raceMaterial;
+        LeftHands.sharedMaterial = raceMaterial;
         HandText.text = "Hand " + (handIndex + 1);
     }
     public void HandSelectionLeft()
@@ -355,6 +377,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         RightHands.sharedMesh = MaleKnightSO.RightHandMesh[handIndex];
         LeftHands.sharedMesh = MaleKnightSO.LeftHandMesh[handIndex];
+        RightHands.sharedMaterial = raceMaterial;
+        LeftHands.sharedMaterial = raceMaterial;
         HandText.text = "Hand " + (handIndex + 1);
     }
     public void HipSelectionRight()
@@ -369,6 +393,7 @@ public class MaleKnightCustomiser : MonoBehaviour
         }
 
         Hips.sharedMesh = MaleKnightSO.HipsMesh[hipIndex];
+        Hips.sharedMaterial = raceMaterial;
         HipText.text = "Hip " + (hipIndex + 1);
     }
     public void HipSelectionLeft() 
@@ -382,6 +407,7 @@ public class MaleKnightCustomiser : MonoBehaviour
             hipIndex = MaleKnightSO.HipsMesh.Length - 1;
         }
         Hips.sharedMesh = MaleKnightSO.HipsMesh[hipIndex];
+        Hips.sharedMaterial = raceMaterial;
         HipText.text = "Hip " + (hipIndex + 1);
     }
     public void LegSelectionRight() 
@@ -397,6 +423,8 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         RightLegs.sharedMesh = MaleKnightSO.LegRightMesh[legIndex];
         LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[legIndex];
+        RightLegs.sharedMaterial = raceMaterial;
+        LeftLegs.sharedMaterial = raceMaterial;
         LegText.text = "Leg " + (legIndex + 1);
     }
     public void LegSelectionLeft() 
@@ -412,10 +440,43 @@ public class MaleKnightCustomiser : MonoBehaviour
 
         RightLegs.sharedMesh = MaleKnightSO.LegRightMesh[legIndex];
         LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[legIndex];
+        RightLegs.sharedMaterial = raceMaterial;
+        LeftLegs.sharedMaterial = raceMaterial;
         LegText.text = "Leg " + (legIndex + 1);
     }
     public void HairSelectionRight() { }
     public void HairSelectionLeft() { }
+
+    public void ChooseKnight()
+    {
+        raceMaterial = MaleKnightSO.Materials[0];
+    }
+    public void ChooseHighFolks()
+    {
+        raceMaterial = MaleKnightSO.Materials[1];
+    }
+    public void ChooseMage()
+    {
+        raceMaterial = MaleKnightSO.Materials[2];
+    }
+
+    public void UpdateMaterial()
+    {
+        RightLegs.sharedMaterial = raceMaterial;
+        LeftLegs.sharedMaterial = raceMaterial;
+        Hips.sharedMaterial = raceMaterial;
+        RightHands.sharedMaterial = raceMaterial;
+        LeftHands.sharedMaterial = raceMaterial;
+        ArmLowerRights.sharedMaterial = raceMaterial;
+        ArmLowerLefts.sharedMaterial = raceMaterial;
+        ArmUpperRights.sharedMaterial = raceMaterial;
+        ArmUpperLefts.sharedMaterial = raceMaterial;
+        Torsos.sharedMaterial = raceMaterial;
+        HeadArmors.sharedMaterial = raceMaterial;
+        FacialHairs.sharedMaterial = raceMaterial;
+        Eyebrows.sharedMaterial = raceMaterial;
+        Skins.sharedMaterial = raceMaterial;
+    }
 
     public void Randomise()
     {
