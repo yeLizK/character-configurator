@@ -10,7 +10,7 @@ public class MenuUIController : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("CharConfigurationScene");
     }
 
     public void LoadGame()

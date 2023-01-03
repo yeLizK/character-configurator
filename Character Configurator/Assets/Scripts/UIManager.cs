@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     public GameObject HeadSelectionPanel;
     public GameObject UpperBodySelectionPanel;
     public GameObject LowerBodySelectionPanel;
+    public Animator CameraAnim;
 
     private Camera mainCamera;
     private Vector3 cameraDefaultPos;
@@ -67,7 +68,8 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         HeadSelectionPanel.SetActive(true);
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(false);
-        mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos,headPos, 1f );
+        CameraAnim.SetTrigger("ZoomHead");
+        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos,headPos, 1f );
 
     }
     public void SetCameraToUpperBodyPos()
@@ -75,7 +77,8 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         HeadSelectionPanel.SetActive(false);
         UpperBodySelectionPanel.SetActive(true);
         LowerBodySelectionPanel.SetActive(false);
-        mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, UpperBodyPos, 5f);
+        CameraAnim.SetTrigger("ZoomBody");
+        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, UpperBodyPos, 5f);
 
     }
 
@@ -84,7 +87,8 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         HeadSelectionPanel.SetActive(false);
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(true);
-        mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, LowerBodyPos, 5f);
+        CameraAnim.SetTrigger("ZoomHips");
+        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, LowerBodyPos, 5f);
 
     }
 
@@ -93,7 +97,8 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         HeadSelectionPanel.SetActive(false);
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(false);
-        mainCamera.transform.position = Vector3.Slerp(mainCamera.transform.position, cameraDefaultPos, 5f);
+        CameraAnim.SetTrigger("ZoomOut");
+        //mainCamera.transform.position = Vector3.Slerp(mainCamera.transform.position, cameraDefaultPos, 5f);
     }
 
     public void OnPointerDown(PointerEventData eventData)

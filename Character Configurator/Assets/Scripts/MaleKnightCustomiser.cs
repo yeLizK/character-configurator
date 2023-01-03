@@ -195,6 +195,7 @@ public class MaleKnightCustomiser : MonoBehaviour
         }
     }
 
+
     public void HeadArmorSelectionRight()
     {
         if (headArmorIndex != MaleKnightSO.HeadArmorMesh.Length - 1)
