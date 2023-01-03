@@ -14,22 +14,12 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     public GameObject LowerBodySelectionPanel;
     public Animator CameraAnim;
 
-    private Camera mainCamera;
-    private Vector3 cameraDefaultPos;
-    private Vector3 headPos = new Vector3(-0.63f, 1.57f, -6.966f);
-    private Vector3 UpperBodyPos = new Vector3(-0.63f, 1.245f, -7.7f);
-    private Vector3 LowerBodyPos = new Vector3(-0.63f, 0.622f, -8.294f);
     private Vector3 mouseInitialPos;
     private Vector3 mouseOffset;
     private Vector3 charRotation;
     private bool isCharRotating;
     private float mouseDragSensitivity;
 
-    private void Awake()
-    {
-        mainCamera = Camera.main;
-        cameraDefaultPos = mainCamera.transform.position;
-    }
     private void Start()
     {
         charRotation = Vector3.zero;
@@ -51,16 +41,12 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     {
         FirstScreen.SetActive(true);
         SecondScreen.SetActive(false);
-        //ModularChar.transform.position = new Vector3(0.273f, 0, -6.448f);
-        //ModularChar.transform.rotation = Quaternion.Euler(0, -170, 0);
         SetCameraToDefaultPos();
     }
     public void OpenSecondScreen() 
     {
         FirstScreen.SetActive(false);
         SecondScreen.SetActive(true);
-        //ModularChar.transform.position = new Vector3(-0.62f, 0, -6.291f);
-        //ModularChar.transform.rotation = Quaternion.Euler(0, 170, 0);
     }
 
     public void SetCameraToHeadPos() 
@@ -69,7 +55,6 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(false);
         CameraAnim.SetTrigger("ZoomHead");
-        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos,headPos, 1f );
 
     }
     public void SetCameraToUpperBodyPos()
@@ -78,7 +63,6 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         UpperBodySelectionPanel.SetActive(true);
         LowerBodySelectionPanel.SetActive(false);
         CameraAnim.SetTrigger("ZoomBody");
-        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, UpperBodyPos, 5f);
 
     }
 
@@ -88,7 +72,6 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(true);
         CameraAnim.SetTrigger("ZoomHips");
-        //mainCamera.transform.position = Vector3.Slerp(cameraDefaultPos, LowerBodyPos, 5f);
 
     }
 
@@ -98,7 +81,6 @@ public class UIManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         UpperBodySelectionPanel.SetActive(false);
         LowerBodySelectionPanel.SetActive(false);
         CameraAnim.SetTrigger("ZoomOut");
-        //mainCamera.transform.position = Vector3.Slerp(mainCamera.transform.position, cameraDefaultPos, 5f);
     }
 
     public void OnPointerDown(PointerEventData eventData)
