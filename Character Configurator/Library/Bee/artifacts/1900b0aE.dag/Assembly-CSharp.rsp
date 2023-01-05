@@ -354,10 +354,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/PolygonFantasyHeroCharacters/Scripts/CharacterRandomizer.cs"
-"Assets/PolygonFantasyHeroCharacters/Scripts/Scriptable Objects/MaleKnightSO.cs"
 "Assets/Scripts/CharacterManager.cs"
+"Assets/Scripts/FemaleKnightCustomiser.cs"
+"Assets/Scripts/FemaleKnightSO.cs"
 "Assets/Scripts/MainMenu/MenuUIController.cs"
 "Assets/Scripts/MaleKnightCustomiser.cs"
+"Assets/Scripts/MaleKnightSO.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 

@@ -5,6 +5,9 @@ using TMPro;
 
 public class MaleKnightCustomiser : MonoBehaviour
 {
+    private static MaleKnightCustomiser _instance;
+    public static MaleKnightCustomiser Instance { get { return _instance; } }
+
     public MaleKnightSO MaleKnightSO;
 
     public Material raceMaterial;
@@ -23,73 +26,34 @@ public class MaleKnightCustomiser : MonoBehaviour
     public SkinnedMeshRenderer Hips;
     public SkinnedMeshRenderer RightLegs;
     public SkinnedMeshRenderer LeftLegs;
-    public SkinnedMeshRenderer Hairs;
-    public SkinnedMeshRenderer HelmetAttachments;
-    public SkinnedMeshRenderer BackAttachments;
-    public SkinnedMeshRenderer RightShoulderAttachments;
-    public SkinnedMeshRenderer LeftShoulderAttachments;
-    public SkinnedMeshRenderer RightElbowAttachments;
-    public SkinnedMeshRenderer LeftElbowAttachments;
-    public SkinnedMeshRenderer RightKneeAttachments;
-    public SkinnedMeshRenderer LeftKneeAttachments;
+    public SkinnedMeshRenderer Hair;
 
-    public TMP_Text HeadText;
-    public TMP_Text EyebrowText;
-    public TMP_Text FacialHairText;
-    public TMP_Text HeadArmorText;
-    public TMP_Text TorsoText;
-    public TMP_Text UpperArmText;
-    public TMP_Text LowerArmText;
-    public TMP_Text HandText;
-    public TMP_Text HipText;
-    public TMP_Text LegText;
-    //public TMP_Text HairText;
+    [HideInInspector]
+    public int headIndex, eyebrowIndex, facialHairIndex, headArmorIndex, torsoIndex, upperArmIndex, lowerArmIndex, handIndex, hipIndex, legIndex, hairIndex;
 
-    private int headIndex;
-    private int eyebrowIndex;
-    private int facialHairIndex;
-    private int headArmorIndex;
-    private int torsoIndex;
-    private int upperArmIndex;
-    private int lowerArmIndex;
-    private int handIndex;
-    private int hipIndex;
-    private int legIndex;
-    private int hairIndex;
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
 
     private void Start()
     {
-        headIndex = 0;
-        eyebrowIndex = 0;
-        facialHairIndex = 0;
-        headArmorIndex = 0;
-        torsoIndex = 0;
-        upperArmIndex = 0;
-        lowerArmIndex = 0;
-        handIndex = 0;
-        hipIndex = 0;
-        legIndex = 0;
-        hairIndex = 0;
+        UpdateToDefault();
 
-
-        HeadText.text = "Head " + (headIndex + 1);
-        EyebrowText.text = "Eyebrows " + (eyebrowIndex + 1);
-        FacialHairText.text = "Facial Hair " + (facialHairIndex + 1);
-        HeadArmorText.text = "Head Armor " + (headArmorIndex + 1);
-        TorsoText.text = "Torso " + (torsoIndex + 1);
-        UpperArmText.text = "Upper Arm " + (upperArmIndex + 1);
-        LowerArmText.text = "Lower Arm " + (lowerArmIndex + 1);
-        HandText.text = "Hand " + (handIndex + 1);
-        HipText.text = "Hip " + (hipIndex + 1);
-        LegText.text = "Leg " + (legIndex + 1);
-        //HairText.text = "Hair " + (hairIndex + 1);
+        raceMaterial = MaleKnightSO.Materials[0];
     }
-
     public void HeadSelectionRight()
     {
-        if(headArmorIndex == 0)
+        if (headArmorIndex == 0)
         {
-            if (headIndex != MaleKnightSO.SkinMesh.Length - 1)
+            if (headIndex != MaleKnightCustomiser.Instance.MaleKnightSO.SkinMesh.Length - 1)
             {
                 headIndex++;
             }
@@ -97,9 +61,9 @@ public class MaleKnightCustomiser : MonoBehaviour
             {
                 headIndex = 0;
             }
-            HeadSelectionUpdate();      
+            HeadSelectionUpdate();
         }
- 
+
     }
 
     public void HeadSelectionLeft()
@@ -117,14 +81,51 @@ public class MaleKnightCustomiser : MonoBehaviour
             HeadSelectionUpdate();
         }
     }
-
-    private void HeadSelectionUpdate()
+    public void HeadSelectionUpdate()
     {
         Skins.sharedMesh = MaleKnightSO.SkinMesh[headIndex];
         Skins.sharedMaterial = raceMaterial;
-        HeadText.text = "Head " + (headIndex + 1);
+        
     }
 
+    public void HairSelectionRight()
+    {
+        if (headArmorIndex == 0)
+        {
+            if (hairIndex != MaleKnightSO.HairMesh.Length - 1)
+            {
+                hairIndex++;
+            }
+            else
+            {
+                hairIndex = 0;
+            }
+            HairSelectionUpdate();
+        }
+
+    }
+
+    public void HairSelectionLeft()
+    {
+        if (headArmorIndex == 0)
+        {
+            if (hairIndex != 0)
+            {
+                hairIndex--;
+            }
+            else
+            {
+                hairIndex = MaleKnightSO.HairMesh.Length - 1;
+            }
+            HairSelectionUpdate();
+        }
+    }
+
+    private void HairSelectionUpdate()
+    {
+        Hair.sharedMesh = MaleKnightSO.HairMesh[hairIndex];
+        Hair.sharedMaterial = raceMaterial;
+    }
     public void EyebrowSelectionRight()
     {
         if (headArmorIndex == 0)
@@ -161,7 +162,6 @@ public class MaleKnightCustomiser : MonoBehaviour
     {
         Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[eyebrowIndex];
         Eyebrows.sharedMaterial = raceMaterial;
-        EyebrowText.text = "Eyebrows " + (eyebrowIndex + 1);
     }
 
     public void FacialHairSelectionRight() 
@@ -177,7 +177,6 @@ public class MaleKnightCustomiser : MonoBehaviour
                 facialHairIndex = 0;
             }
             FacialHairSelectionUpdate();
-            FacialHairText.text = "Facial Hair " + (facialHairIndex + 1);
         }
     }
     public void FacialHairSelectionLeft() 
@@ -194,7 +193,6 @@ public class MaleKnightCustomiser : MonoBehaviour
             }
 
             FacialHairSelectionUpdate();
-            FacialHairText.text = "Facial Hair " + (facialHairIndex + 1);
         }
     }
 
@@ -253,6 +251,7 @@ public class MaleKnightCustomiser : MonoBehaviour
     private void HideHeadSelections()
     {
         Skins.sharedMesh = null;
+        Hair.sharedMesh = MaleKnightSO.HairMesh[0];
         Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[0]; ;
         FacialHairs.sharedMesh = MaleKnightSO.FacialHairMesh[0];
     }
@@ -262,13 +261,13 @@ public class MaleKnightCustomiser : MonoBehaviour
         Skins.sharedMesh = MaleKnightSO.SkinMesh[headIndex];
         Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[eyebrowIndex];
         FacialHairs.sharedMesh = MaleKnightSO.FacialHairMesh[facialHairIndex];
+        Hair.sharedMesh = MaleKnightSO.HairMesh[hairIndex];
     }
 
     private void HeadArmorSelectionUpdate()
     {
         HeadArmors.sharedMesh = MaleKnightSO.HeadArmorMesh[headArmorIndex];
         HeadArmors.sharedMaterial = raceMaterial;
-        HeadArmorText.text = "Head Armor " + (headArmorIndex + 1);
     }
     public void TorsoSelectionRight()
     {
@@ -300,7 +299,6 @@ public class MaleKnightCustomiser : MonoBehaviour
     {
         Torsos.sharedMesh = MaleKnightSO.TorsoMesh[torsoIndex];
         Torsos.sharedMaterial = raceMaterial;
-        TorsoText.text = "Torso " + (torsoIndex + 1);
     }
 
     public void UpperArmSelectionRight() 
@@ -336,7 +334,6 @@ public class MaleKnightCustomiser : MonoBehaviour
         ArmUpperLefts.sharedMesh = MaleKnightSO.ArmUpperLeftMesh[upperArmIndex];
         ArmUpperRights.sharedMaterial = raceMaterial;
         ArmUpperLefts.sharedMaterial = raceMaterial;
-        UpperArmText.text = "Upper Arm " + (upperArmIndex + 1);
     }
 
     public void LowerArmSelectionRight() 
@@ -372,7 +369,6 @@ public class MaleKnightCustomiser : MonoBehaviour
         ArmLowerLefts.sharedMesh = MaleKnightSO.ArmLowerLeftMesh[lowerArmIndex];
         ArmLowerRights.sharedMaterial = raceMaterial;
         ArmLowerLefts.sharedMaterial = raceMaterial;
-        LowerArmText.text = "Lower Arm " + (lowerArmIndex + 1);
     }
 
     public void HandSelectionRight()
@@ -408,7 +404,6 @@ public class MaleKnightCustomiser : MonoBehaviour
         LeftHands.sharedMesh = MaleKnightSO.LeftHandMesh[handIndex];
         RightHands.sharedMaterial = raceMaterial;
         LeftHands.sharedMaterial = raceMaterial;
-        HandText.text = "Hand " + (handIndex + 1);
     }
 
     public void HipSelectionRight()
@@ -441,7 +436,6 @@ public class MaleKnightCustomiser : MonoBehaviour
     {
         Hips.sharedMesh = MaleKnightSO.HipsMesh[hipIndex];
         Hips.sharedMaterial = raceMaterial;
-        HipText.text = "Hip " + (hipIndex + 1);
     }
 
     public void LegSelectionRight() 
@@ -477,21 +471,17 @@ public class MaleKnightCustomiser : MonoBehaviour
         LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[legIndex];
         RightLegs.sharedMaterial = raceMaterial;
         LeftLegs.sharedMaterial = raceMaterial;
-        LegText.text = "Leg " + (legIndex + 1);
     }
-
-    public void HairSelectionRight() { }
-    public void HairSelectionLeft() { }
 
     public void ChooseKnight()
     {
         raceMaterial = MaleKnightSO.Materials[0];
     }
-    public void ChooseHighFolks()
+    public void ChooseFreeFolks()
     {
         raceMaterial = MaleKnightSO.Materials[1];
     }
-    public void ChooseMage()
+    public void ChooseHighBloods()
     {
         raceMaterial = MaleKnightSO.Materials[2];
     }
@@ -514,6 +504,38 @@ public class MaleKnightCustomiser : MonoBehaviour
         Skins.sharedMaterial = raceMaterial;
     }
 
+    public void UpdateToDefault()
+    {
+        headIndex = 0;
+        eyebrowIndex = 0;
+        facialHairIndex = 0;
+        headArmorIndex = 0;
+        torsoIndex = 0;
+        upperArmIndex = 0;
+        lowerArmIndex = 0;
+        handIndex = 0;
+        hipIndex = 0;
+        legIndex = 0;
+        hairIndex = 0;
+
+        Skins.sharedMesh = MaleKnightSO.SkinMesh[0];
+        HeadArmors.sharedMesh = MaleKnightSO.HeadArmorMesh[0];
+        Torsos.sharedMesh = MaleKnightSO.TorsoMesh[0];
+        ArmUpperRights.sharedMesh = MaleKnightSO.ArmUpperRightMesh[0];
+        ArmUpperLefts.sharedMesh = MaleKnightSO.ArmUpperLeftMesh[0];
+        ArmLowerRights.sharedMesh = MaleKnightSO.ArmLowerRightMesh[0];
+        ArmLowerLefts.sharedMesh = MaleKnightSO.ArmLowerLeftMesh[0];
+        RightHands.sharedMesh = MaleKnightSO.RightHandMesh[0];
+        LeftHands.sharedMesh = MaleKnightSO.LeftHandMesh[0];
+        Hips.sharedMesh = MaleKnightSO.HipsMesh[0];
+        RightLegs.sharedMesh = MaleKnightSO.LegRightMesh[0];
+        LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[0];
+        Hair.sharedMesh = MaleKnightSO.HairMesh[0];
+        Eyebrows.sharedMesh = MaleKnightSO.EyebrowsMesh[0];
+        FacialHairs.sharedMesh = MaleKnightSO.FacialHairMesh[0];
+
+    }
+
     public void Randomise()
     {
         Skins.sharedMesh = MaleKnightSO.SkinMesh[Random.Range(0, MaleKnightSO.SkinMesh.Length)];
@@ -534,19 +556,6 @@ public class MaleKnightCustomiser : MonoBehaviour
         int legIndex = Random.Range(0, MaleKnightSO.LegRightMesh.Length);
         RightLegs.sharedMesh = MaleKnightSO.LegRightMesh[legIndex];
         LeftLegs.sharedMesh = MaleKnightSO.LegLeftMesh[legIndex];
-        Hairs.sharedMesh = MaleKnightSO.HairMesh[Random.Range(0, MaleKnightSO.HairMesh.Length)];
-        HelmetAttachments.sharedMesh = MaleKnightSO.HelmetAttachmentMesh[Random.Range(0, MaleKnightSO.HelmetAttachmentMesh.Length)];
-        BackAttachments.sharedMesh = MaleKnightSO.BackAttachmentMesh[Random.Range(0, MaleKnightSO.BackAttachmentMesh.Length)];
-        int shoulderAttachIndex = Random.Range(0, MaleKnightSO.RightShoulderAttachmentMesh.Length);
-        RightShoulderAttachments.sharedMesh = MaleKnightSO.RightShoulderAttachmentMesh[shoulderAttachIndex];
-        LeftShoulderAttachments.sharedMesh = MaleKnightSO.LeftShoulderAttachmentMesh[shoulderAttachIndex];
-        int elbowAttachIndex = Random.Range(0, MaleKnightSO.RightElbowAttachmentMesh.Length);
-        RightElbowAttachments.sharedMesh = MaleKnightSO.RightElbowAttachmentMesh[elbowAttachIndex];
-        LeftElbowAttachments.sharedMesh = MaleKnightSO.LeftElbowAttachmentMesh[elbowAttachIndex];
-        int kneeAttachIndex = Random.Range(0, MaleKnightSO.RightKneeAttachmentMesh.Length);
-        RightKneeAttachments.sharedMesh = MaleKnightSO.RightKneeAttachmentMesh[elbowAttachIndex];
-        LeftKneeAttachments.sharedMesh = MaleKnightSO.LeftKneeAttachmentMesh[elbowAttachIndex];
-
     }
 
 }

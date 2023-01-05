@@ -10,13 +10,10 @@ public class CharacterManager : MonoBehaviour
     public static CharacterManager Instance { get { return _instance; } }
 
     private string characterName = "";
-    private int gender; // 0-male, 1-female
-    public enum characeterRace {Knight, Freefolks, HighBloods};
+    public int gender; // 0-male, 1-female
 
     public TMP_InputField nameField;
     public GameObject firstScreen;
-    public GameObject maleModel;
-    public GameObject femaleModel;
 
     private void Awake()
     {
@@ -37,19 +34,5 @@ public class CharacterManager : MonoBehaviour
             characterName = nameField.text;
         }
 
-    }
-
-    public void SelectMale()
-    {
-        maleModel.SetActive(true);
-        femaleModel.SetActive(false);
-        gender = 0;
-    }
-
-    public void SelectFemale()
-    {
-        maleModel.SetActive(false);
-        femaleModel.SetActive(true);
-        gender = 1;
     }
 }

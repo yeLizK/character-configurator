@@ -1,0 +1,1856 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/GitHub/character-configurator/Character Configurator
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49284
+Successfully changed project path to: C:/GitHub/character-configurator/Character Configurator
+C:/GitHub/character-configurator/Character Configurator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17404] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 2077965102 [EditorId] 2077965102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17404] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 2077965102 [EditorId] 2077965102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 102.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/character-configurator/Character Configurator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010169 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1043ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3844.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 2.787700 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.313700 ms  DeleteObjects: 0.101100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1773693.123835 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Architecture/Window_01.FBX
+  artifactKey: Guid(421da39064b1d1847904793452582b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Architecture/Window_01.FBX using Guid(421da39064b1d1847904793452582b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2bd9fd7a18b04f3750ae5fda0b1fa9') in 0.178815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.942200 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_25.mesh
+  artifactKey: Guid(4711c7399ae869b43b2564f1d8aa1595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_25.mesh using Guid(4711c7399ae869b43b2564f1d8aa1595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b174e03daee9819d1327862f2f71ffde') in 0.024017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.255717 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_23.mesh
+  artifactKey: Guid(048a8ad277d19ac47bcd9f0c8bf3bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_23.mesh using Guid(048a8ad277d19ac47bcd9f0c8bf3bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a626354d5f46120ad842929c7a2428') in 0.024384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023210 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_21_Static.fbx
+  artifactKey: Guid(5800a1a0d8758e04a9e1a9549fd149be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_21_Static.fbx using Guid(5800a1a0d8758e04a9e1a9549fd149be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f869e49750ca5fe8fd8c46d8d7f2de8f') in 0.026308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_18_Static.fbx
+  artifactKey: Guid(896f3ede270f6ea4786592b851b9123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_18_Static.fbx using Guid(896f3ede270f6ea4786592b851b9123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe8b2d394bec4df66c4a2c39865de38') in 0.019293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023429 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_16_Static.fbx
+  artifactKey: Guid(2e85d9a5001cd4f41a9b8f4f49974cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_16_Static.fbx using Guid(2e85d9a5001cd4f41a9b8f4f49974cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c23dd969595d2326a206e3a369c1cc') in 0.021982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275860 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_16.mesh
+  artifactKey: Guid(f3f485189b673334aabf69abce7fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_16.mesh using Guid(f3f485189b673334aabf69abce7fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c3616baad30cb60ba2722b9796656a') in 0.021021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018277 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_13.mesh
+  artifactKey: Guid(a2d61c39835f35b42989cbb46df14651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_13.mesh using Guid(a2d61c39835f35b42989cbb46df14651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ddf4146bd165f167ea53de4eaaaf0f') in 0.023598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_13_Static.fbx
+  artifactKey: Guid(9bd9bc0f34b54f742b36d1a133366b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_13_Static.fbx using Guid(9bd9bc0f34b54f742b36d1a133366b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b593fb7d26cd868cb9e67ffee79b72a') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_14.mesh
+  artifactKey: Guid(9b4d3f7a3fed31b409514db025e90917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_14.mesh using Guid(9b4d3f7a3fed31b409514db025e90917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dd5e49238d5b1aefd8ae0a4dd75827') in 0.021631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220759 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_09.mesh
+  artifactKey: Guid(817150de800d2e345a556f716080a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_09.mesh using Guid(817150de800d2e345a556f716080a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78f80411c9c35c63e58e8440ad4ef1') in 0.020860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_07_Static.fbx
+  artifactKey: Guid(a9b4cecd2afb31e4dbaba1ff3caf2c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_07_Static.fbx using Guid(a9b4cecd2afb31e4dbaba1ff3caf2c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b1a8d9f28963e4567c5553beb65434') in 0.024051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_09_Static.fbx
+  artifactKey: Guid(41e341215d5f1eb4da037b55cfa7c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_09_Static.fbx using Guid(41e341215d5f1eb4da037b55cfa7c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f99abda4bb7edfe5e1564dcc8fe038') in 0.022205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_04_Static.fbx
+  artifactKey: Guid(c3daf70bdc4e73f48baf32937422869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Torso_Female_04_Static.fbx using Guid(c3daf70bdc4e73f48baf32937422869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46094bd4c45cb4747a91995b59a87ad9') in 0.023310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_06.mesh
+  artifactKey: Guid(d8119a50d18a98a4282dd2fad9954aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_06.mesh using Guid(d8119a50d18a98a4282dd2fad9954aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ad2eaa5c8a05c798949be03424d61') in 0.019408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218336 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_00.mesh
+  artifactKey: Guid(d108f7e1eaed59649af1e5aab5edc61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_00.mesh using Guid(d108f7e1eaed59649af1e5aab5edc61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c7254489d408ab3cee1323418a0b57') in 0.020708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Torso_Female_01.mesh
+  artifactKey: Guid(a9613aa824654a3479739b553cff6c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Torso_Female_01.mesh using Guid(a9613aa824654a3479739b553cff6c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754fc8bac9fb5cc2bc32bd961faf32c') in 0.024638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_20_Static.fbx
+  artifactKey: Guid(8d4a6c78a195c164db63c9761c458dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_20_Static.fbx using Guid(8d4a6c78a195c164db63c9761c458dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a164e5573ee84908b68076804de68a') in 0.022960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009226 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_18.mesh
+  artifactKey: Guid(e44318ee282ca2e42a35428e0cbfbc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_18.mesh using Guid(e44318ee282ca2e42a35428e0cbfbc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb78a81189ccc328971a5b9603e7ca5') in 0.018503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_19_Static.fbx
+  artifactKey: Guid(191f68ad38fa47744b5053525104d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_19_Static.fbx using Guid(191f68ad38fa47744b5053525104d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a9024f78ce5574ec5491caefe16270') in 0.019570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180709 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_17.mesh
+  artifactKey: Guid(02bebabbde36e8c41ab877926c2ef3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_17.mesh using Guid(02bebabbde36e8c41ab877926c2ef3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3d5ec7df9e01d652dfd5d916cb67da') in 0.017307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_15.mesh
+  artifactKey: Guid(fa65d75a958fc824886ecf10af86409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_15.mesh using Guid(fa65d75a958fc824886ecf10af86409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e462ada629145be997e0fad2bfd0266') in 0.017812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_17_Static.fbx
+  artifactKey: Guid(7474275db636d9f46a07597c56952bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_17_Static.fbx using Guid(7474275db636d9f46a07597c56952bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e79f8439c8fcd4980ce15885b19c2c') in 0.021314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021136 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_13.mesh
+  artifactKey: Guid(f0763e12c1ae7c14d9ca71a4c5f237ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_13.mesh using Guid(f0763e12c1ae7c14d9ca71a4c5f237ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e669e2d2023644d1022ef4a332f400') in 0.015835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_13_Static.fbx
+  artifactKey: Guid(cbc0d2bde5a6c12439aa8eb7c9ddd2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachRight_13_Static.fbx using Guid(cbc0d2bde5a6c12439aa8eb7c9ddd2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5c179ba1eabcaadddade6fd0157e7') in 0.018323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210365 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_09.mesh
+  artifactKey: Guid(0e128d9663f1e86478a019f11d4a8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_09.mesh using Guid(0e128d9663f1e86478a019f11d4a8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6133b5d02944cf9e25041698eb3057cb') in 0.018518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047660 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_06.mesh
+  artifactKey: Guid(30f9276725357c24db9b48b37a27debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_06.mesh using Guid(30f9276725357c24db9b48b37a27debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c449df5d1a8ca2f8a13760a7b4811a1d') in 0.017927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220622 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_01.mesh
+  artifactKey: Guid(13cbe04b5b283724cb2674351687a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachRight_01.mesh using Guid(13cbe04b5b283724cb2674351687a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41a1a423ab9838c2f315fef1a0f711d') in 0.017356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026137 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_20.mesh
+  artifactKey: Guid(11764e5f51670a2409518da509a334b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_20.mesh using Guid(11764e5f51670a2409518da509a334b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de80d5d03ab85822cd04f6a616375f5') in 0.017461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_21.mesh
+  artifactKey: Guid(3db35fe9b7fed684c86a8b94bc29daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_21.mesh using Guid(3db35fe9b7fed684c86a8b94bc29daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854c17c7eb49381fcc47fe3b2c98aa56') in 0.017290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026454 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_18_Static.fbx
+  artifactKey: Guid(b9e5d7d024cb2ee44a73d5e546423c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_18_Static.fbx using Guid(b9e5d7d024cb2ee44a73d5e546423c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977fde292bbcb8f83f12c7324f5ce406') in 0.021583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160132 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_16_Static.fbx
+  artifactKey: Guid(10fa7205cc9751f46baf5b4a76c46e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_16_Static.fbx using Guid(10fa7205cc9751f46baf5b4a76c46e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fcbe8069767aeffc3c9fed115afb72') in 0.024775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_15.mesh
+  artifactKey: Guid(cb57f8fdd1f4ff24c8ee4b540ec37021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_15.mesh using Guid(cb57f8fdd1f4ff24c8ee4b540ec37021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38792a601696590fcdc14218f1337494') in 0.018275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033095 seconds.
+  path: Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_12.mesh
+  artifactKey: Guid(0375252a00a180641a20f2ca91b99ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Common/Chr_ShoulderAttachLeft_12.mesh using Guid(0375252a00a180641a20f2ca91b99ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64fd97b1c3421880dc8e90ad4c04de') in 0.018699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_12_Static.fbx
+  artifactKey: Guid(af6458698517f1d4c99b12fc49a69042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_ShoulderAttachLeft_12_Static.fbx using Guid(af6458698517f1d4c99b12fc49a69042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d52fc980890ebb120cdf9804df467f1') in 0.019417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.258158 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/lamp_01.FBX
+  artifactKey: Guid(d56361d366b1eb24888dc241f8ace923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/lamp_01.FBX using Guid(d56361d366b1eb24888dc241f8ace923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe2bf69c42e18c6ffe78d6f33dcaeb4') in 0.047608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/cupboard_02.FBX
+  artifactKey: Guid(a16d561c7bcb80347b12bb431e80ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/cupboard_02.FBX using Guid(a16d561c7bcb80347b12bb431e80ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77d3e52c7bb11a1f6389cdaa99a510a') in 0.064749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/chair_02.FBX
+  artifactKey: Guid(124b302eaf9cd38408af12c8281a6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/chair_02.FBX using Guid(124b302eaf9cd38408af12c8281a6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8039397f58c44fc0b2f1250f610865') in 0.028574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/chair_01.FBX
+  artifactKey: Guid(f41fff59846a4464397502418c996b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/chair_01.FBX using Guid(f41fff59846a4464397502418c996b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91958d55a4e8b34c5f341cc76d3011fe') in 0.031093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.603742 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Architecture/Door_02.FBX
+  artifactKey: Guid(f62595d2ad838eb419de412444d07f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Architecture/Door_02.FBX using Guid(f62595d2ad838eb419de412444d07f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8089a0eff36d6f1f7d04a0c6e671ad3') in 0.026789 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007249 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3892.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 2.923800 ms (FindLiveObjects: 0.401900 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.318700 ms  DeleteObjects: 0.097100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3895.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 3.036500 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.532500 ms  DeleteObjects: 0.094300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (898ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3898.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.584000 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.166600 ms  DeleteObjects: 0.081100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (888ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3901.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.797900 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.351100 ms  DeleteObjects: 0.110100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3904.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 2.658600 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.243200 ms  DeleteObjects: 0.080300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3907.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.847500 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.279000 ms  DeleteObjects: 0.088400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5403.491483 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_09.mesh
+  artifactKey: Guid(8f63b7cd4a41a9544a7b3999d80437f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_09.mesh using Guid(8f63b7cd4a41a9544a7b3999d80437f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8787166fa38820100c8f3b211ad686a6') in 0.086853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_10.mesh
+  artifactKey: Guid(5991f0756d5177341b98ee290720c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_10.mesh using Guid(5991f0756d5177341b98ee290720c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a37a058c52fd3e30340e6dea92cfc0') in 0.020625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_14.mesh
+  artifactKey: Guid(4cbf568620af9cf458b6075eb5008c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_14.mesh using Guid(4cbf568620af9cf458b6075eb5008c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aec7d77f9b267368b84c81367298542') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_17.mesh
+  artifactKey: Guid(60594085889af084c85504ec3d3ca482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperLeft_Female_17.mesh using Guid(60594085889af084c85504ec3d3ca482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2bd941774d490bd3264c82cbc308ff') in 0.017158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422340 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_00.mesh
+  artifactKey: Guid(14a77ad4eea09054eb903ea55ac93c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_00.mesh using Guid(14a77ad4eea09054eb903ea55ac93c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230d6f5bb3b28048616079cdefda63c') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_02.mesh
+  artifactKey: Guid(a7c0d4e64bc0a0b4eb65cb7bd5c6c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_02.mesh using Guid(a7c0d4e64bc0a0b4eb65cb7bd5c6c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f387ee1a1d412a7fc09890dee2cc133a') in 0.016292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_07.mesh
+  artifactKey: Guid(cbbe0baa2aca788469e054dd1c37a2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_07.mesh using Guid(cbbe0baa2aca788469e054dd1c37a2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ec522426e2c42163cc43017c15ec85') in 0.019733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_05.mesh
+  artifactKey: Guid(2d672bb7532b7764a8b587774517df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_05.mesh using Guid(2d672bb7532b7764a8b587774517df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5709710a94634f3a853ab5b3f205ff29') in 0.017278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173750 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_09.mesh
+  artifactKey: Guid(530a0e073ffa60a43acb89ea73e5c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_09.mesh using Guid(530a0e073ffa60a43acb89ea73e5c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbfb23b3ac5e03a06cc0f5561666c26') in 0.017204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_12.mesh
+  artifactKey: Guid(2ec4e20cd6e09784e8da0f09916db50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_12.mesh using Guid(2ec4e20cd6e09784e8da0f09916db50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079a59e02e1fdece9ba03c0a40a94377') in 0.018392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_13.mesh
+  artifactKey: Guid(d75f78d6dbcc78a429a0441ad771152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_13.mesh using Guid(d75f78d6dbcc78a429a0441ad771152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b573317900ade687f89972a28c2aaf') in 0.018549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_15.mesh
+  artifactKey: Guid(e7716257aeb41e64ca0b012591acf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_15.mesh using Guid(e7716257aeb41e64ca0b012591acf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20cca0bb3a6a90aa87e257482426eff') in 0.015703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_17.mesh
+  artifactKey: Guid(e612ef2f239cb1841841987aa3b8273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_ArmUpperRight_Female_17.mesh using Guid(e612ef2f239cb1841841987aa3b8273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d50b201fa590c3871b4c3771948da2d') in 0.016136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048319 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_01.mesh
+  artifactKey: Guid(900247f2d9341354a8bfbd62ef3c80f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_01.mesh using Guid(900247f2d9341354a8bfbd62ef3c80f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c10cce21d5b0379b39627de3415b1aa') in 0.015968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_03.mesh
+  artifactKey: Guid(999d2d40e08f4dd4baf0b360cdaf1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_03.mesh using Guid(999d2d40e08f4dd4baf0b360cdaf1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b964ddf84f5f792ef72f533473977005') in 0.015938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_04.mesh
+  artifactKey: Guid(b71abf7a7007c7041b8c6ffb1c6bf573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Eyebrow_Female_04.mesh using Guid(b71abf7a7007c7041b8c6ffb1c6bf573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0c49378e51eb7b1ac85fd7c0321e3a') in 0.017080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.904763 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Architecture/Fireplace_02.FBX
+  artifactKey: Guid(c6a3bf6867e70b1428a21803ab38f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Architecture/Fireplace_02.FBX using Guid(c6a3bf6867e70b1428a21803ab38f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db21c6aeadca5b4198f5d78a4b0874d') in 0.058529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.461474 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_00_Static.prefab
+  artifactKey: Guid(e7276bc1117f20949b03e2f05efd35ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_00_Static.prefab using Guid(e7276bc1117f20949b03e2f05efd35ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4296020b0a88d406af7a6167a12598') in 0.042137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_02_Static.prefab
+  artifactKey: Guid(c777856b5e150b344971e7c270cea3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_02_Static.prefab using Guid(c777856b5e150b344971e7c270cea3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a389addc3781c782c87fbb0568970') in 0.034114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_05.mesh
+  artifactKey: Guid(234e0ed4b26ed634db4012b84729c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_05.mesh using Guid(234e0ed4b26ed634db4012b84729c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d73e5349acf97c84eca07910997f8bd') in 0.018614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_04.mesh
+  artifactKey: Guid(a5fd675efd104454d88fd1e88a165c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_04.mesh using Guid(a5fd675efd104454d88fd1e88a165c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f644a74139d4b7e2ac0c9c2bbc775b65') in 0.017471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_02_Static.fbx
+  artifactKey: Guid(2cb7d2fb07acfbf4d9899ce56b530488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_02_Static.fbx using Guid(2cb7d2fb07acfbf4d9899ce56b530488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211f86664baaa38e91ef4b3f927a694') in 0.012720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_05_Static.prefab
+  artifactKey: Guid(fd20ad9845fa9cd488d3cb2a8d753288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_05_Static.prefab using Guid(fd20ad9845fa9cd488d3cb2a8d753288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446ef9cc4e2731767b0a782d6a16c170') in 0.024525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_01_Static.fbx
+  artifactKey: Guid(7b164adcf92943d489dadd35c7c3b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_01_Static.fbx using Guid(7b164adcf92943d489dadd35c7c3b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f2548b245129ab7a82deb96daba6bc') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.852696 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_14.mesh
+  artifactKey: Guid(0f651bb89a5c940448c43ddb04500a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_14.mesh using Guid(0f651bb89a5c940448c43ddb04500a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a3a71a5839ad6c7e2ded628038e23c') in 0.021546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_18.mesh
+  artifactKey: Guid(ae0546386b6b9c243b92ed4fd67c30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_18.mesh using Guid(ae0546386b6b9c243b92ed4fd67c30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43a18776616c67e12a124bb74498899') in 0.015606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_17.mesh
+  artifactKey: Guid(11203d79e0d7b094ba1749f1ff82c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_17.mesh using Guid(11203d79e0d7b094ba1749f1ff82c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23a070d7b1ffe184fba2c2d44b084e') in 0.016775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222395 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_03.mesh
+  artifactKey: Guid(18627ac593c19c349b527dbd95c8d352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_03.mesh using Guid(18627ac593c19c349b527dbd95c8d352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc57f99a251ce5dba53152ec276024df') in 0.015108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_06.mesh
+  artifactKey: Guid(6f4ee7577aebc704caab6c2c6bb65320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_06.mesh using Guid(6f4ee7577aebc704caab6c2c6bb65320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5036752bb8b396d8e5d5b0a2f76cdf1d') in 0.016216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_08.mesh
+  artifactKey: Guid(c469cb6fcc130ea45bffab6d7d029c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_08.mesh using Guid(c469cb6fcc130ea45bffab6d7d029c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4406e0314e274ac8870d0bbcb981370b') in 0.016981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegRight_Male_12.mesh
+  artifactKey: Guid(74829c560fcb9964eaff45c47e553179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegRight_Male_12.mesh using Guid(74829c560fcb9964eaff45c47e553179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe517594041830771fb4f76acc8b9306') in 0.016949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263630 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_12.mesh
+  artifactKey: Guid(af87ee9e1012ad14f9990e22d0a97310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_12.mesh using Guid(af87ee9e1012ad14f9990e22d0a97310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231699a3547998a0cb447c059dfcd728') in 0.016064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_16.mesh
+  artifactKey: Guid(dd0e9374df455964fae1fb3805979c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_16.mesh using Guid(dd0e9374df455964fae1fb3805979c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e123712150c48a01be126c93b70d00e') in 0.015718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_15.mesh
+  artifactKey: Guid(23afeaca2abbd48489f550316a745d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_15.mesh using Guid(23afeaca2abbd48489f550316a745d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee23cc3f3e8635456fcf68df21ca8330') in 0.016854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_03.mesh
+  artifactKey: Guid(00482c4f042bbbe489a27efbcd9aec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_03.mesh using Guid(00482c4f042bbbe489a27efbcd9aec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eba613991e45642d8c985b3be795c6c') in 0.015426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_07.mesh
+  artifactKey: Guid(5812a4d5c3e66e84dbcd334efd602296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_07.mesh using Guid(5812a4d5c3e66e84dbcd334efd602296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cde905eb5e6c2d8d380b2f85653acb') in 0.015763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_27.mesh
+  artifactKey: Guid(e3703dd9bbe1e954685e9107ee21aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_27.mesh using Guid(e3703dd9bbe1e954685e9107ee21aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8cdb06c822a0b850ca0ebfccd2f823') in 0.017597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_18.mesh
+  artifactKey: Guid(19443702269379243b1cf51412e0a91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_18.mesh using Guid(19443702269379243b1cf51412e0a91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f839cdb7a87aa816d88030c432d6bda') in 0.017357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_23.mesh
+  artifactKey: Guid(b670e6851447d0b4d8521300af5ea22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_23.mesh using Guid(b670e6851447d0b4d8521300af5ea22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c606abc3adc2dcaadf7c0447514092') in 0.018238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_20.mesh
+  artifactKey: Guid(203dfa1eb1548a8428c1326d0f20cc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_20.mesh using Guid(203dfa1eb1548a8428c1326d0f20cc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a93d4858b74a7c970e6bce9b062b26c') in 0.017351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_04.mesh
+  artifactKey: Guid(6501cd1c48ba8e14b8ba003ffc4015db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_04.mesh using Guid(6501cd1c48ba8e14b8ba003ffc4015db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883165319bb341788162627689932750') in 0.020224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_19.mesh
+  artifactKey: Guid(dbc799afb6b4a63479be1bbd22cd9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_19.mesh using Guid(dbc799afb6b4a63479be1bbd22cd9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de29b4599bb33b20f53ddc8cd537b4b') in 0.017022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_19.mesh
+  artifactKey: Guid(f17f8169c67929d449f99cfbaa507a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_19.mesh using Guid(f17f8169c67929d449f99cfbaa507a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1ccdbfa6fda9034ee799bff3a7df54') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_06.mesh
+  artifactKey: Guid(721634b19f4a15c42a8b3b57bbadad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_LegLeft_Male_06.mesh using Guid(721634b19f4a15c42a8b3b57bbadad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aea205d8e79f9ee12d0bab7caee4b2') in 0.016665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068803 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_08.mesh
+  artifactKey: Guid(bccbc83ae1e7401459c852e557a0cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_08.mesh using Guid(bccbc83ae1e7401459c852e557a0cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4aa31f253a94adfd7f540d36f2f8b3') in 0.018059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_11.mesh
+  artifactKey: Guid(a32f2aef912b1df438f8cfe9a3025cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_11.mesh using Guid(a32f2aef912b1df438f8cfe9a3025cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0443b91dea681ec87c9d9f85cdf78c34') in 0.016690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_10.mesh
+  artifactKey: Guid(49eab0df74bbfcd48bbf516c467b673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_10.mesh using Guid(49eab0df74bbfcd48bbf516c467b673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bb34b79b8518ee98997ed91854d889') in 0.019941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_05.mesh
+  artifactKey: Guid(78f80cd9f7d97d440bce52a31ed032c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_05.mesh using Guid(78f80cd9f7d97d440bce52a31ed032c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae6f6eb2da3ddb804f5c8e1ddda1c6b') in 0.015950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_06.mesh
+  artifactKey: Guid(846738131171d9f488cd7f3f7f936771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_06.mesh using Guid(846738131171d9f488cd7f3f7f936771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc4d60950957cc463ac1238c623bdf8') in 0.021452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_03.mesh
+  artifactKey: Guid(9fda5d2a9d26bc647b62bf0b06e43cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_03.mesh using Guid(9fda5d2a9d26bc647b62bf0b06e43cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a1a68cabb0d86b528f92e39e80562f') in 0.016927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_14.mesh
+  artifactKey: Guid(ce777f976afc5a44d9a66f4f6dc6dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_14.mesh using Guid(ce777f976afc5a44d9a66f4f6dc6dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce51c3ad51183ae7f6a66659e9f54e9') in 0.016032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Hips_Male_17.mesh
+  artifactKey: Guid(b2248cee264ddbd4c857f8fb560d06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Hips_Male_17.mesh using Guid(b2248cee264ddbd4c857f8fb560d06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afc22534f93ee1babd83d4732cb606a') in 0.016401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_No_Elements_Male_10.mesh
+  artifactKey: Guid(0d01f198a95604847a41f56aae80cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_No_Elements_Male_10.mesh using Guid(0d01f198a95604847a41f56aae80cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef3c3e7fe077f8740d7f1789b5baff0') in 0.018340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.457623 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_22.mesh
+  artifactKey: Guid(45b4974d00be48e4397ead1265d883ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_22.mesh using Guid(45b4974d00be48e4397ead1265d883ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdfea9286484058bf8df24094808ee5') in 0.016554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018320 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_10.mesh
+  artifactKey: Guid(4f4a0ad830e0b724caa7b33c8263186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_10.mesh using Guid(4f4a0ad830e0b724caa7b33c8263186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101b8f854e6575757cd6c3dbb353ea74') in 0.015989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_13.mesh
+  artifactKey: Guid(f4d129bee06fa6d4ea3384ead955605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_13.mesh using Guid(f4d129bee06fa6d4ea3384ead955605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365fa662c9ad0eab712d0d50afda4064') in 0.015855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_14.mesh
+  artifactKey: Guid(a94cfbfac271b1645a6860dd625b0c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_14.mesh using Guid(a94cfbfac271b1645a6860dd625b0c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0dce2ff4fd6bf3c973ba97d5cf469') in 0.016987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_12.mesh
+  artifactKey: Guid(2f714811bc8bb06408c0431fbf31829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_12.mesh using Guid(2f714811bc8bb06408c0431fbf31829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab48db8da069e5fdcc8b53951b355af') in 0.018380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_09.mesh
+  artifactKey: Guid(d8382e7a6606604449279ef7b7912735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_09.mesh using Guid(d8382e7a6606604449279ef7b7912735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e8931d6fb7b529a88b03fc2bd1a062') in 0.017132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_08.mesh
+  artifactKey: Guid(bd182000f01d7ca4683785da297b4fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_08.mesh using Guid(bd182000f01d7ca4683785da297b4fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221acd6585518086eb9e7824fb9b6d35') in 0.015346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_02.mesh
+  artifactKey: Guid(e91439babbc56c14f99e710ebbec7efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_02.mesh using Guid(e91439babbc56c14f99e710ebbec7efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee978c5bdb7ff99c66363dc33234652') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_06.mesh
+  artifactKey: Guid(ac6e16e6a623c5847b4222c77fc4e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_06.mesh using Guid(ac6e16e6a623c5847b4222c77fc4e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcb2d98592c59c8166234c55e73b943') in 0.015949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_04.mesh
+  artifactKey: Guid(002853f8d17dfcd4ca90eea24f0b08c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_04.mesh using Guid(002853f8d17dfcd4ca90eea24f0b08c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18968f7329b7669e3bffb47a55e7521') in 0.016134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Head_Male_16.mesh
+  artifactKey: Guid(1dbc8898854bea74aa7fe79ed663bc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Head_Male_16.mesh using Guid(1dbc8898854bea74aa7fe79ed663bc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e648bbadd0cb101b23906f70ad80555') in 0.017450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319706 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_07.mesh
+  artifactKey: Guid(f87d86a0a5c76dc498e1b99bb048d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_07.mesh using Guid(f87d86a0a5c76dc498e1b99bb048d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c956e1c07991add6018dd795fa925a') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_15.mesh
+  artifactKey: Guid(f2427ff13bd5a42468ea0861234215ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_15.mesh using Guid(f2427ff13bd5a42468ea0861234215ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938eb065b9a0e42f4257b14fa5d26c6d') in 0.015702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_12.mesh
+  artifactKey: Guid(277018389c79bd8489b8b9ececd81390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_12.mesh using Guid(277018389c79bd8489b8b9ececd81390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9d3f4ea8e86c2aeabb46be74eac992') in 0.017168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_17.mesh
+  artifactKey: Guid(6bca9cb8b21cbbc4a9e9a6ac1ba9fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_17.mesh using Guid(6bca9cb8b21cbbc4a9e9a6ac1ba9fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0346e38917c140ab84848bbea01aa7') in 0.016187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_14.mesh
+  artifactKey: Guid(185809071e45f9a4db83680cba1cee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_14.mesh using Guid(185809071e45f9a4db83680cba1cee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a4bab78431e72d713156afef339c04') in 0.016881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_13.mesh
+  artifactKey: Guid(71788f8adf08ee348a142949ee3581d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_13.mesh using Guid(71788f8adf08ee348a142949ee3581d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35f12e3cf6f910afee8fc1041f7698') in 0.015878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_03.mesh
+  artifactKey: Guid(5b40a5ea99504d341ae76e007c073cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_03.mesh using Guid(5b40a5ea99504d341ae76e007c073cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdd177221450ce19e5808373dd3de26') in 0.016608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_08.mesh
+  artifactKey: Guid(dc9fa4eff39046b49aa698f9041726cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_08.mesh using Guid(dc9fa4eff39046b49aa698f9041726cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa1d09f7dd692b1706534d32ca3a7e') in 0.018211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_11.mesh
+  artifactKey: Guid(fef313ec216d0144587c8315ccfeb332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_11.mesh using Guid(fef313ec216d0144587c8315ccfeb332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad93aaf3af69cc71fe7180c1774661c6') in 0.018562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_06.mesh
+  artifactKey: Guid(85c9c54238e635b4aaa2fb1def0aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_06.mesh using Guid(85c9c54238e635b4aaa2fb1def0aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa079f11855e71e637130b0dc562de6') in 0.018119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_10.mesh
+  artifactKey: Guid(edf10359ec3f65e4f98ad8afd8ddb99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_10.mesh using Guid(edf10359ec3f65e4f98ad8afd8ddb99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e395ed9294358b34c3df89c822daca9a') in 0.017452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_07.mesh
+  artifactKey: Guid(098b1de81eb69294f9e25577aaf57bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandLeft_Male_07.mesh using Guid(098b1de81eb69294f9e25577aaf57bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9b9aafc9b96c577f534a810737a588') in 0.023851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_HandRight_Male_04.mesh
+  artifactKey: Guid(9ee94a921e8fb5b4fb717f2feb0864b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_HandRight_Male_04.mesh using Guid(9ee94a921e8fb5b4fb717f2feb0864b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857bc3023084dbd8bd8643ae24df702e') in 0.024617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.330639 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_11.mesh
+  artifactKey: Guid(34e19e141e6932a4cbe98282bb24435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_11.mesh using Guid(34e19e141e6932a4cbe98282bb24435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2855b0b8343a80b9f190a903fed8582') in 0.016742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_17.mesh
+  artifactKey: Guid(146085f0dd93bb441a229bca0e17ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_17.mesh using Guid(146085f0dd93bb441a229bca0e17ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb0987453ec738911e74c1c74f55c08') in 0.017015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_16.mesh
+  artifactKey: Guid(fa2b183cf6f7b0e4fb14173bc90f91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_16.mesh using Guid(fa2b183cf6f7b0e4fb14173bc90f91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbee4ffb2eef61351f0993dd4a7a770') in 0.016009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Eyebrow_Male_10.mesh
+  artifactKey: Guid(5a84fb96836468140b589c1c25dc74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Eyebrow_Male_10.mesh using Guid(5a84fb96836468140b589c1c25dc74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50e23d63b66142b49b916587b9e552c') in 0.017886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_Eyebrow_Male_06.mesh
+  artifactKey: Guid(847f52579b7d77b438f47123c81ba43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_Eyebrow_Male_06.mesh using Guid(847f52579b7d77b438f47123c81ba43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04389207cf31e300011a5fb41efa654b') in 0.017152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_02.mesh
+  artifactKey: Guid(c016da1861da0ac4d9ce6ebcb42fe339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_02.mesh using Guid(c016da1861da0ac4d9ce6ebcb42fe339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedb6fdb2972f46597dce915cae832dd') in 0.020133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_14.mesh
+  artifactKey: Guid(cafd630bb56305045971cc0a9fe33f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_14.mesh using Guid(cafd630bb56305045971cc0a9fe33f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c1afe050c4a809c368fe7276577202') in 0.016936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_09.mesh
+  artifactKey: Guid(fbfd0e3fe7a53264aa371683ac30f8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_FacialHair_Male_09.mesh using Guid(fbfd0e3fe7a53264aa371683ac30f8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ea9088c549d28b251b493c22d65b3a') in 0.017683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280445 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_08.mesh
+  artifactKey: Guid(99c06a6376b6cd846a4e49d64d89ef56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_08.mesh using Guid(99c06a6376b6cd846a4e49d64d89ef56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361cb42e13851706251793798f49a5f2') in 0.016857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_10.mesh
+  artifactKey: Guid(feb4101711e451641b80cefb53cb0f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_10.mesh using Guid(feb4101711e451641b80cefb53cb0f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60c725cb6f7d8671e868fdde83e72d') in 0.016246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_13.mesh
+  artifactKey: Guid(dd06a130db3b37641afc28d9361aecb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_13.mesh using Guid(dd06a130db3b37641afc28d9361aecb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d3228f7fefa42367c23f2874f3fb7a') in 0.017763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_17.mesh
+  artifactKey: Guid(2e2386e2d9b42f249b1b44a837504ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_17.mesh using Guid(2e2386e2d9b42f249b1b44a837504ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9624255ba0644838234d4867414d69d1') in 0.017887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_05.mesh
+  artifactKey: Guid(195fc2c7aa58392429303ccbdf6e1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_05.mesh using Guid(195fc2c7aa58392429303ccbdf6e1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7b02a8dd941fab8cecae9dd5716223') in 0.017716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_15.mesh
+  artifactKey: Guid(4bd78a24032a589439fdbf811dbc6075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_15.mesh using Guid(4bd78a24032a589439fdbf811dbc6075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae34b8527ddf45e4c3f49462a9c79c9') in 0.017895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_16.mesh
+  artifactKey: Guid(2bea2687723b77b4eb76c8e9c9e24539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_16.mesh using Guid(2bea2687723b77b4eb76c8e9c9e24539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56090f6a4d90cb3b40c9eccaaa4acd8f') in 0.017155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_11.mesh
+  artifactKey: Guid(087f33127cb6df443a5224ef06c24443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperRight_Male_11.mesh using Guid(087f33127cb6df443a5224ef06c24443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b836aed20adaea629438ac83d985b5ff') in 0.017564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_12.mesh
+  artifactKey: Guid(eadae21f05d93c344aaeebcec70e9d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_12.mesh using Guid(eadae21f05d93c344aaeebcec70e9d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bb31e1ac6986b25a7392a0d99b9b96') in 0.017780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_13.mesh
+  artifactKey: Guid(4284f6dadbeaf6b4ca194543a4653a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Male/Chr_ArmUpperLeft_Male_13.mesh using Guid(4284f6dadbeaf6b4ca194543a4653a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c4259a22fbf72d0eb208a0e409a53b') in 0.017572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.392461 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_06.mesh
+  artifactKey: Guid(ea9f7d3c56dbdb048abbb18b5e85bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_06.mesh using Guid(ea9f7d3c56dbdb048abbb18b5e85bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d2b21dc41c6dcb99b149cfc0159de3') in 0.019023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_06_Static.prefab
+  artifactKey: Guid(864e0ec9ef32dcf45a5f367cb1fdc4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_06_Static.prefab using Guid(864e0ec9ef32dcf45a5f367cb1fdc4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d264ac960d27e3caeb0a0e94d6eaa4') in 0.019318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008507 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_07_Static.fbx
+  artifactKey: Guid(010a0f3b17ed771438bcacd49a5534d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_07_Static.fbx using Guid(010a0f3b17ed771438bcacd49a5534d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c92cd76c5084ed9b1b7df2b646c14d3') in 0.017909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_08_Static.prefab
+  artifactKey: Guid(783820923c0ab7d4187911ed0b2671e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_08_Static.prefab using Guid(783820923c0ab7d4187911ed0b2671e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18040639c76387e39d376b2ad58b93e3') in 0.021963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398084 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_09_Static.prefab
+  artifactKey: Guid(9eb97be8dc2e4134f8696bb42b6f15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_09_Static.prefab using Guid(9eb97be8dc2e4134f8696bb42b6f15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b0eb7491c7b76bdd4aafc399a3673c') in 0.021241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_10_Static.prefab
+  artifactKey: Guid(db3294f16d6889a4d850908da551269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_10_Static.prefab using Guid(db3294f16d6889a4d850908da551269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879e54d31c898d0a9903d2a77e6b7e9e') in 0.019034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038680 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_11_Static.fbx
+  artifactKey: Guid(54e2443b0a7dfc8429dd396ca6909e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_11_Static.fbx using Guid(54e2443b0a7dfc8429dd396ca6909e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd236f1aab2ea82ebd3939c9424164cff') in 0.018012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_12_Static.prefab
+  artifactKey: Guid(12274f90a559cf5459d58ec4502ed5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_12_Static.prefab using Guid(12274f90a559cf5459d58ec4502ed5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7e638af5d10bf49b57e8d8a2676510') in 0.034989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_12.mesh
+  artifactKey: Guid(130c40afb3654da42a00f3d83bba46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_12.mesh using Guid(130c40afb3654da42a00f3d83bba46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be1351ebfc3a71b1a1bd016042f961f') in 0.015295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314806 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_13_Static.fbx
+  artifactKey: Guid(49f9d8e20feba3747997a29c41eb172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_13_Static.fbx using Guid(49f9d8e20feba3747997a29c41eb172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc67a556ada234e1d595b98852ccaee') in 0.020223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_14.mesh
+  artifactKey: Guid(1c3321e8f5620744ab16007c85a5db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_14.mesh using Guid(1c3321e8f5620744ab16007c85a5db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26eb8ab370f0b0f21f21fe2038268739') in 0.017243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018228 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_15_Static.fbx
+  artifactKey: Guid(16c8b623be6ca4044b3a244603bee3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_15_Static.fbx using Guid(16c8b623be6ca4044b3a244603bee3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49d1fecacf7b8c31b65ee35cba0fd3e') in 0.021137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_16.mesh
+  artifactKey: Guid(786d8cdcddf8dc24f8128d1ede169a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_16.mesh using Guid(786d8cdcddf8dc24f8128d1ede169a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a25e7e7cb2c654d237c62497c8bf9de') in 0.016345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018280 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_17.mesh
+  artifactKey: Guid(12c9ef1fc0bf4904eb1c1e46444c3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_17.mesh using Guid(12c9ef1fc0bf4904eb1c1e46444c3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4af692da56b47b8410ca1d0e7ec87') in 0.017398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_18.mesh
+  artifactKey: Guid(318345765988a52418238b693b19732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_18.mesh using Guid(318345765988a52418238b693b19732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286a017549fb9bc072877fae6cceb34a') in 0.018466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.230090 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_18_Static.fbx
+  artifactKey: Guid(34a4f24f7baa7e449ac4d3af728741e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_18_Static.fbx using Guid(34a4f24f7baa7e449ac4d3af728741e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39412a6a8de08cd57822070a0444ce7') in 0.017782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_Female_20.mesh
+  artifactKey: Guid(93b605c3e6b381e41a727feb64389e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_Female_20.mesh using Guid(93b605c3e6b381e41a727feb64389e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ca9042586b58a759d63f4454ac83a4') in 0.017240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018855 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_20_Static.fbx
+  artifactKey: Guid(ef98385516defce43823aae2e793c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_20_Static.fbx using Guid(ef98385516defce43823aae2e793c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54ed45b065448c330cdb74f4cc4f286') in 0.018031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_21_Static.prefab
+  artifactKey: Guid(c419aafe169ed44419bd4ccdeb474ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Female_21_Static.prefab using Guid(c419aafe169ed44419bd4ccdeb474ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67333a65643abffbb47c735111bbe640') in 0.018685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208456 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_22_Static.fbx
+  artifactKey: Guid(9b7cd83a7b7ef8941909970655965872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Female_22_Static.fbx using Guid(9b7cd83a7b7ef8941909970655965872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86e786b14dbdbc6a1c797206b5b7cd7') in 0.016955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_00_Static.prefab
+  artifactKey: Guid(837dccc3826039e4aa83675fb4742afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_00_Static.prefab using Guid(837dccc3826039e4aa83675fb4742afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f0479eaebe67d6ec97fbef31952021') in 0.013833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011442 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_01_Static.fbx
+  artifactKey: Guid(34a7ba5c8647d2443b27d9f44aa837d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_01_Static.fbx using Guid(34a7ba5c8647d2443b27d9f44aa837d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c83e7d9bef7575565af857c5698b6b1') in 0.019132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_02_Static.prefab
+  artifactKey: Guid(59067772f6ee3344bb86c519de4fd185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_02_Static.prefab using Guid(59067772f6ee3344bb86c519de4fd185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9241893eda4719a68dd440e9a1b901') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_04_Static.fbx
+  artifactKey: Guid(35fe167a38aec564fab42a3065f697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_04_Static.fbx using Guid(35fe167a38aec564fab42a3065f697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a3cde3946c4aa1a03214341ac5c7e5') in 0.018451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.245169 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_05_Static.fbx
+  artifactKey: Guid(d851af4a0bc9a0e45bb11bc5f55e23a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_05_Static.fbx using Guid(d851af4a0bc9a0e45bb11bc5f55e23a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74379eda83c1fdf217904e848cab62c') in 0.022538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022835 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_06_Static.fbx
+  artifactKey: Guid(ec901ad7cc83b2a439e97a9f6c7831e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_06_Static.fbx using Guid(ec901ad7cc83b2a439e97a9f6c7831e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e592be70f44838a064f291b22c609da') in 0.017914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_07_Static.fbx
+  artifactKey: Guid(7aeffb70bc3b1004380685dec25dd876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_07_Static.fbx using Guid(7aeffb70bc3b1004380685dec25dd876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b062138734b67510cd6a031ef7faa59e') in 0.012899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223705 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_08_Static.prefab
+  artifactKey: Guid(f3714f652d51a5940888bf02433a9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_08_Static.prefab using Guid(f3714f652d51a5940888bf02433a9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015d00d6021c1bf5f8dba4105781d3b6') in 0.020713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025580 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_10_Static.prefab
+  artifactKey: Guid(60f24576b6652a541b2a20727ca4b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_10_Static.prefab using Guid(60f24576b6652a541b2a20727ca4b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58828da3b9cfe670061ac35e768f17b7') in 0.024025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_12_Static.prefab
+  artifactKey: Guid(f267e395e7da53f4eb42579536126beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_12_Static.prefab using Guid(f267e395e7da53f4eb42579536126beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d26323f9411b9b45777a45c1ff0ad8') in 0.023939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234536 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_14_Static.fbx
+  artifactKey: Guid(b89ca9797a145554b9111fd36d18919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_14_Static.fbx using Guid(b89ca9797a145554b9111fd36d18919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c06346420ab2849c83deed6d714cd58') in 0.021635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006073 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_15_Static.fbx
+  artifactKey: Guid(166bf23b27ab8f0409f3369fe230f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_Male_15_Static.fbx using Guid(166bf23b27ab8f0409f3369fe230f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50257e04bf78657a174f152b9dc18230') in 0.014256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025473 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_17_Static.prefab
+  artifactKey: Guid(c006cb7ff0cb24d4380c8fb58b20c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_17_Static.prefab using Guid(c006cb7ff0cb24d4380c8fb58b20c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a396e797a51f65f67aab6deedaef1423') in 0.021441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197868 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_19_Static.prefab
+  artifactKey: Guid(97788733a9636044e88af9dadb5ac662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_19_Static.prefab using Guid(97788733a9636044e88af9dadb5ac662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cddfeeea13749b21f952b7370c279ec') in 0.019916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007906 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_21_Static.prefab
+  artifactKey: Guid(2eea9598faec10f4b958b478143b5961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_Head_Male_21_Static.prefab using Guid(2eea9598faec10f4b958b478143b5961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee2758e473e0fd76415c625f84e884d') in 0.027662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_No_Elements_Female_01.mesh
+  artifactKey: Guid(907a95a2588fac44c96921f7e19efaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_No_Elements_Female_01.mesh using Guid(907a95a2588fac44c96921f7e19efaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc6f5180fc2fc9fd23344de4b4e14a2') in 0.019947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181152 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_No_Elements_Female_03_Static.fbx
+  artifactKey: Guid(c34a9819738f2b84fbfa0fbaf69f8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_No_Elements_Female_03_Static.fbx using Guid(c34a9819738f2b84fbfa0fbaf69f8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f5de45a7698396a89787e1b4e0efca') in 0.020299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009496 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Head_No_Elements_Female_05.mesh
+  artifactKey: Guid(e9b2747bd1d428247b5de1d566e1958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Head_No_Elements_Female_05.mesh using Guid(e9b2747bd1d428247b5de1d566e1958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcdab2262275836f41428b4061e1575') in 0.017295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002752 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_No_Elements_Female_06_Static.fbx
+  artifactKey: Guid(e0d182d5d44dd434480796d5603d64bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_Head_No_Elements_Female_06_Static.fbx using Guid(e0d182d5d44dd434480796d5603d64bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cda60c9448a54acaa1f2c71c5184d6') in 0.019822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.272676 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_02_Static.prefab
+  artifactKey: Guid(f78829ec3da690848b6fa45dbe3b1667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_02_Static.prefab using Guid(f78829ec3da690848b6fa45dbe3b1667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41393f4ec3d7752cec453e1c5540ba92') in 0.026786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192427 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_06_Static.prefab
+  artifactKey: Guid(907a4684cf1fb714884ca0cca428d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_06_Static.prefab using Guid(907a4684cf1fb714884ca0cca428d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a5683aba29b85f166eab79669a14b') in 0.029833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_08_Static.prefab
+  artifactKey: Guid(aeeefb2d5469d4543846e2bace34bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_08_Static.prefab using Guid(aeeefb2d5469d4543846e2bace34bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891583a8c827824930d5934a778feff3') in 0.021566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_HeadCoverings_No_Hair_09_Static.fbx
+  artifactKey: Guid(b8a8a71697be488479c8f41146139336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts/Chr_HeadCoverings_No_Hair_09_Static.fbx using Guid(b8a8a71697be488479c8f41146139336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667b26bca3b1dfd8911d8a85c001dca4') in 0.024222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_11_Static.prefab
+  artifactKey: Guid(1d531e08b9f22304eacd8b5ebc4d8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_HeadCoverings_No_Hair_11_Static.prefab using Guid(1d531e08b9f22304eacd8b5ebc4d8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aecdf5672c42d16d59bb4ad7d1712a') in 0.027752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.122563 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_01.mesh
+  artifactKey: Guid(c3fb61e631ca97c4d96175dac18aa2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_01.mesh using Guid(c3fb61e631ca97c4d96175dac18aa2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15e0bd3b9e24fa60fc8e77588699a83') in 0.019082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_05.mesh
+  artifactKey: Guid(57c669a948301f340bd02afa8be5a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_05.mesh using Guid(57c669a948301f340bd02afa8be5a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2758dfed97a55cb1949e10ed013ed7a') in 0.017108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.139359 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_01.mesh
+  artifactKey: Guid(615c9de3836db6c458c4b95cdcad2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_01.mesh using Guid(615c9de3836db6c458c4b95cdcad2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36220c6daeff7f1b9b075a7d456b667') in 0.022860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_10.mesh
+  artifactKey: Guid(d9dc3eaf4c6805f43a478f402bb92905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_10.mesh using Guid(d9dc3eaf4c6805f43a478f402bb92905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9de3ec0a81c60128c1975c1e55a9b4') in 0.019967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_14.mesh
+  artifactKey: Guid(0cb9909b1ddb0ab4588eff5f7abf0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_14.mesh using Guid(0cb9909b1ddb0ab4588eff5f7abf0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d11ab40dd0488374630f65adfed8ce') in 0.017053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_08.mesh
+  artifactKey: Guid(abefd298412288c45b11c85f5592440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_08.mesh using Guid(abefd298412288c45b11c85f5592440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b794862b71361e69513cb81cb2b73238') in 0.020605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_11.mesh
+  artifactKey: Guid(fd7bdfd4ca28c0143aa3ab4b547f3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_11.mesh using Guid(fd7bdfd4ca28c0143aa3ab4b547f3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6552b5eb390856176fbe12edd7e21') in 0.017741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_03.mesh
+  artifactKey: Guid(9be907d1d56da1b4f83885557a05f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_03.mesh using Guid(9be907d1d56da1b4f83885557a05f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4832ae8f8a4e2457c047b9f0d138e24c') in 0.017467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_07.mesh
+  artifactKey: Guid(667d1a5ffc98fb24b8af63a6e618be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_07.mesh using Guid(667d1a5ffc98fb24b8af63a6e618be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66515ad3b8054d97a55d419599a6f0f7') in 0.017240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_04.mesh
+  artifactKey: Guid(c7001b6f7f1f56c4e8324b9b3649b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_04.mesh using Guid(c7001b6f7f1f56c4e8324b9b3649b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cfc3dbea4b08ff0fbd7c3c00766ea3') in 0.017969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegRight_Female_15.mesh
+  artifactKey: Guid(b1373abb11e708348b6775676633e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegRight_Female_15.mesh using Guid(b1373abb11e708348b6775676633e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f3d1c82d040a0e531938911809ca9') in 0.016187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.410441 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_03.mesh
+  artifactKey: Guid(50d170e05517d414f8bc0034f7d0feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_03.mesh using Guid(50d170e05517d414f8bc0034f7d0feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a5032b636df261a469c7322b338aac') in 0.046630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_15.mesh
+  artifactKey: Guid(2d1cee1c1669ecb49a09d5947b88a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_15.mesh using Guid(2d1cee1c1669ecb49a09d5947b88a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ec6e883498eba90c5f012ef486fe42') in 0.017393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_01.mesh
+  artifactKey: Guid(e5810e994db0a884ab30c49dfe7e04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_01.mesh using Guid(e5810e994db0a884ab30c49dfe7e04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5df61deb235622daf1460fd10b2bf8') in 0.016988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_06.mesh
+  artifactKey: Guid(0c63867f87025ba40a97d63ebdcdf2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_06.mesh using Guid(0c63867f87025ba40a97d63ebdcdf2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb479d3ed5a7334306dcb36cb8c617d') in 0.016146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_03.mesh
+  artifactKey: Guid(4d0419408f0b1cd4680e1a3f4f473859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_03.mesh using Guid(4d0419408f0b1cd4680e1a3f4f473859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82886e3a0b24630bfdb9d320e2edd85') in 0.015584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_09.mesh
+  artifactKey: Guid(836e2bd586f4c80409c15ed078d3e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_09.mesh using Guid(836e2bd586f4c80409c15ed078d3e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd7a71bb3a12b31d3bfe97048b0e3df') in 0.015920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_13.mesh
+  artifactKey: Guid(31294f6f21055294b9b46b8e4269ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_13.mesh using Guid(31294f6f21055294b9b46b8e4269ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef7185f604d28c60b2c10cada1aa515') in 0.015528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_04.mesh
+  artifactKey: Guid(aa6e106227c6a854397fd8f5ab90def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_04.mesh using Guid(aa6e106227c6a854397fd8f5ab90def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb715a88f7ca0e85d6bb62f757b82d') in 0.016455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_04.mesh
+  artifactKey: Guid(fd15bd78820143f4f8e62e897e7dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_04.mesh using Guid(fd15bd78820143f4f8e62e897e7dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7464184b03f8047422f1858976c635a0') in 0.016647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_07.mesh
+  artifactKey: Guid(0e5fe68b985cf9047ac3cda65bfdaa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_07.mesh using Guid(0e5fe68b985cf9047ac3cda65bfdaa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caeaeef4533c364c785ae06977fcfbb') in 0.016925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_10.mesh
+  artifactKey: Guid(6c6a633e2f270554cb59ef88100b6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_10.mesh using Guid(6c6a633e2f270554cb59ef88100b6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf0e978e92a6d11fc0f25287c1b3c53') in 0.017026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_13.mesh
+  artifactKey: Guid(8c7b49bf425422947a1aed10abc5f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_13.mesh using Guid(8c7b49bf425422947a1aed10abc5f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297245fcde8d2e796dc701a882f34471') in 0.016007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_08.mesh
+  artifactKey: Guid(5fcafc27fe87a1044ab4a8d8df6a1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_08.mesh using Guid(5fcafc27fe87a1044ab4a8d8df6a1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc8dfa2b4f74ba2fc04cb33d370eaee') in 0.015921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_10.mesh
+  artifactKey: Guid(eda6118ca427f0641b74f95aace66cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_10.mesh using Guid(eda6118ca427f0641b74f95aace66cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81638c5cd055cfc4aef73298b424196b') in 0.017786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_12.mesh
+  artifactKey: Guid(6705f1bf6ebd7324ab3e45859456f6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_12.mesh using Guid(6705f1bf6ebd7324ab3e45859456f6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743fb173f78b3ee85b8bf0175af86d22') in 0.019124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_11.mesh
+  artifactKey: Guid(76fae03c94088004482821cc5b88a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandLeft_Female_11.mesh using Guid(76fae03c94088004482821cc5b88a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1a7598c63892423c76fc87c85ecd8b') in 0.016574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_HandRight_Female_12.mesh
+  artifactKey: Guid(cc33b1f8d4ab40144a5272aac722443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_HandRight_Female_12.mesh using Guid(cc33b1f8d4ab40144a5272aac722443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2770160966a486ac0cca74f0c1fe570') in 0.018834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.311457 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_08.mesh
+  artifactKey: Guid(35a5f5d07efabca4390e070f753d1255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_08.mesh using Guid(35a5f5d07efabca4390e070f753d1255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9f72c4453ad9ebf080afa41bb3ea77') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_14.mesh
+  artifactKey: Guid(f3e3e52c5b27a744e9ee0ee7f2b9974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_14.mesh using Guid(f3e3e52c5b27a744e9ee0ee7f2b9974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8f58ffa5a2981945b02c1cb2ea0f46') in 0.017918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_27.mesh
+  artifactKey: Guid(ea2bcc4ca7351214abcf95fc1d67cb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_27.mesh using Guid(ea2bcc4ca7351214abcf95fc1d67cb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf8f2bc3b5e35a88983995c15b1dae') in 0.018858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_12.mesh
+  artifactKey: Guid(18e7793dab760fe41a7799cd42f7d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_12.mesh using Guid(18e7793dab760fe41a7799cd42f7d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff6e02f4fdb96ade3a517279544a5ca') in 0.020302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_20.mesh
+  artifactKey: Guid(835a36629a892f94da8ebe6939c8aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_20.mesh using Guid(835a36629a892f94da8ebe6939c8aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d0f4938bdf41a7104d103662cb4aac') in 0.021288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_24.mesh
+  artifactKey: Guid(5a1183ec14daa0d45a7f8a9b6c8b629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_24.mesh using Guid(5a1183ec14daa0d45a7f8a9b6c8b629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c721370fbbc822322ddf9840a62839e') in 0.019515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_11.mesh
+  artifactKey: Guid(927e2d26d3e66404f9f0e46807eed460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_11.mesh using Guid(927e2d26d3e66404f9f0e46807eed460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40726a99cac68d65459f1f2aa1f6ead7') in 0.027353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_Hips_Female_26.mesh
+  artifactKey: Guid(61a96ca1310548246926a4dedfa9e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_Hips_Female_26.mesh using Guid(61a96ca1310548246926a4dedfa9e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856881261158a3fd455053d31bb91105') in 0.019479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.688653 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_02.mesh
+  artifactKey: Guid(c6252e747268bd8489fd46d83e8646e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_02.mesh using Guid(c6252e747268bd8489fd46d83e8646e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd640979647b923ecf589132f244e80fa') in 0.018850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_05.mesh
+  artifactKey: Guid(d66c3fceebd65a3499f8d23b9f4b55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_05.mesh using Guid(d66c3fceebd65a3499f8d23b9f4b55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc5b5da626f2c4d9cd9d3a2bfdb0d3') in 0.017031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_17.mesh
+  artifactKey: Guid(ba5a73472b35bf84bac09bb0a3a06b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_17.mesh using Guid(ba5a73472b35bf84bac09bb0a3a06b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6df9d73f2587d2067c7127c548e1a83') in 0.019177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_14.mesh
+  artifactKey: Guid(411c6ac07b002d74488d130d118881b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_14.mesh using Guid(411c6ac07b002d74488d130d118881b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c04898e0a9cae628f39e74295bd7c16') in 0.016997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_16.mesh
+  artifactKey: Guid(b07a43737d55c964b92aa9e1ad60e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_16.mesh using Guid(b07a43737d55c964b92aa9e1ad60e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac9804aecefb42920a0dd9a491be92') in 0.017036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_12.mesh
+  artifactKey: Guid(29195c5a425f7f142b5bf2902128edfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Configurator Assets/Female/Chr_LegLeft_Female_12.mesh using Guid(29195c5a425f7f142b5bf2902128edfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda80d99875c739f0a0371b6a2c4504c') in 0.017587 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

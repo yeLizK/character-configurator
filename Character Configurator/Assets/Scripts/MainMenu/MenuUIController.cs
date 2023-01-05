@@ -32,5 +32,6 @@ public class MenuUIController : MonoBehaviour
     }
 
 
+
     public void ApplicationClose() { Debug.Log("Application Closed!"); }
 }
