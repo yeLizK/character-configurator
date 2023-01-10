@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class FemaleKnightCustomiser : MonoBehaviour
+public class FemaleKnightCustomiser : MonoBehaviour, Customiser
 {
     private static FemaleKnightCustomiser _instance;
     public static FemaleKnightCustomiser Instance { get { return _instance; } }
@@ -85,7 +85,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         }
     }
 
-    private void HeadSelectionUpdate()
+    public void HeadSelectionUpdate()
     {
         Skins.sharedMesh = FemaleKnightSO.SkinMesh[headIndex];
         Skins.sharedMaterial = raceMaterial;
@@ -125,7 +125,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         }
     }
 
-    private void HairSelectionUpdate()
+    public void HairSelectionUpdate()
     {
         Hair.sharedMesh = FemaleKnightSO.HairMesh[hairIndex];
         Hair.sharedMaterial = raceMaterial;
@@ -177,20 +177,20 @@ public class FemaleKnightCustomiser : MonoBehaviour
         }
     }
 
-    private void HideHeadSelections()
+    public void HideHeadSelections()
     {
         Skins.sharedMesh = null;
         Eyebrows.sharedMesh = FemaleKnightSO.EyebrowsMesh[0];
         Hair.sharedMesh = FemaleKnightSO.HairMesh[0];
     }
 
-    private void ReturnHeadSelections()
+    public void ReturnHeadSelections()
     {
         Skins.sharedMesh = FemaleKnightSO.SkinMesh[headIndex];
         Eyebrows.sharedMesh = FemaleKnightSO.EyebrowsMesh[eyebrowIndex];
         Hair.sharedMesh = FemaleKnightSO.HairMesh[hairIndex];
     }
-    private void HeadArmorSelectionUpdate()
+    public void HeadArmorSelectionUpdate()
     {
         HeadArmors.sharedMesh = FemaleKnightSO.HeadArmorMesh[headArmorIndex];
         HeadArmors.sharedMaterial = raceMaterial;
@@ -227,7 +227,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         }
     }
 
-    private void EyebrowSelectionUpdate()
+    public void EyebrowSelectionUpdate()
     {
         Eyebrows.sharedMesh = FemaleKnightSO.EyebrowsMesh[eyebrowIndex];
         Eyebrows.sharedMaterial = raceMaterial;
@@ -260,7 +260,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         TorsoSelectionUpdate();
     }
 
-    private void TorsoSelectionUpdate()
+    public void TorsoSelectionUpdate()
     {
         Torsos.sharedMesh = FemaleKnightSO.TorsoMesh[torsoIndex];
         Torsos.sharedMaterial = raceMaterial;
@@ -293,7 +293,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         UpperArmSelectionUpdate();
     }
 
-    private void UpperArmSelectionUpdate()
+    public void UpperArmSelectionUpdate()
     {
         ArmUpperRights.sharedMesh = FemaleKnightSO.ArmUpperRightMesh[upperArmIndex];
         ArmUpperLefts.sharedMesh = FemaleKnightSO.ArmUpperLeftMesh[upperArmIndex];
@@ -328,7 +328,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         LowerArmSelectionUpdate();
     }
 
-    private void LowerArmSelectionUpdate()
+    public void LowerArmSelectionUpdate()
     {
         ArmLowerRights.sharedMesh = FemaleKnightSO.ArmLowerRightMesh[lowerArmIndex];
         ArmLowerLefts.sharedMesh = FemaleKnightSO.ArmLowerLeftMesh[lowerArmIndex];
@@ -363,7 +363,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         HandSelectionUpdate();
     }
 
-    private void HandSelectionUpdate()
+    public void HandSelectionUpdate()
     {
         RightHands.sharedMesh = FemaleKnightSO.RightHandMesh[handIndex];
         LeftHands.sharedMesh = FemaleKnightSO.LeftHandMesh[handIndex];
@@ -397,7 +397,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         HipsSelectionUpdate();
     }
 
-    private void HipsSelectionUpdate()
+    public void HipsSelectionUpdate()
     {
         Hips.sharedMesh = FemaleKnightSO.HipsMesh[hipIndex];
         Hips.sharedMaterial = raceMaterial;
@@ -430,7 +430,7 @@ public class FemaleKnightCustomiser : MonoBehaviour
         LegsSelectionUpdate();
     }
 
-    private void LegsSelectionUpdate()
+    public void LegsSelectionUpdate()
     {
         RightLegs.sharedMesh = FemaleKnightSO.LegRightMesh[legIndex];
         LeftLegs.sharedMesh = FemaleKnightSO.LegLeftMesh[legIndex];
