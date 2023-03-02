@@ -15,7 +15,7 @@ C:/GitHub/character-configurator/Character Configurator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58331
+56736
 Successfully changed project path to: C:/GitHub/character-configurator/Character Configurator
 C:/GitHub/character-configurator/Character Configurator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/GitHub/character-configurator/Character Configurator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27344] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 755042748 [EditorId] 755042748 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18448] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 3904934504 [EditorId] 3904934504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27344] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 755042748 [EditorId] 755042748 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18448] Host "[IP] 192.168.1.180 [Port] 0 [Flags] 2 [Guid] 3904934504 [EditorId] 3904934504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G617HBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 94.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.010215 seconds.
+Registered in 0.010372 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (630ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (631ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (438ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (272ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006361 seconds.
+Registered in 0.006292 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -119,141 +119,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  0.988 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (353ms)
+			SetupLoadedEditorAssemblies (378ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3845.
-Memory consumption went from 122.5 MB to 122.4 MB.
-Total: 2.875000 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.383700 ms  DeleteObjects: 0.092700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2230558.974774 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5b8d2444eccef43e819d81643fabac') in 0.019619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.516328 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ae5b831e82520a75ce5ab0b5514e0') in 0.002185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 564.016508 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a877d95c0b4388380b4bc081e66eb2d9') in 0.002384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.678122 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294aee6db60718daed5666031f0772a9') in 0.002030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.360660 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c10a88bee076c2a88cc1827e14a857') in 0.002415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 324.296838 seconds.
-  path: Assets/Scripts/Customiser.cs
-  artifactKey: Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Customiser.cs using Guid(24b309986f028544eabbad04cf9c3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea2378b874a60442fa95ffc7c6bd9bc') in 0.002242 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006841 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\character-configurator\Character Configurator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Domain Reload Profiling:
-	ReloadAssembly (987ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (304ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3848.
-Memory consumption went from 121.0 MB to 121.0 MB.
-Total: 2.975300 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.528200 ms  DeleteObjects: 0.092500 ms)
+Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3845.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 2.853300 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.367000 ms  DeleteObjects: 0.113900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -265,3 +170,255 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10799.123290 seconds.
+  path: Assets/Scripts/MainMenu/MenuUIController.cs
+  artifactKey: Guid(a4131484906931c4f831d9a683eda7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu/MenuUIController.cs using Guid(a4131484906931c4f831d9a683eda7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9163f82ce997bffe76912d1d51ca97d7') in 0.027438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8576.371807 seconds.
+  path: Assets/Scenes/CharConfigurationScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CharConfigurationScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c58e82efef4abd1213f84e00d7d31f') in 0.005728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.542153 seconds.
+  path: Assets/Animations/ZoomHead.anim
+  artifactKey: Guid(034bca6387dae4845894b89806b800ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ZoomHead.anim using Guid(034bca6387dae4845894b89806b800ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c06f9ea818b6ce4467d5be96ca6467') in 0.020170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036666 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(000251b720a0acd499a2a4b82548dbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(000251b720a0acd499a2a4b82548dbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341fa2dd95b972275c422839d27ad09a') in 0.004081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117961 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/door_02_ALBEDO.png
+  artifactKey: Guid(3b4b1c0f6910a4e4ca198414292679cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/door_02_ALBEDO.png using Guid(3b4b1c0f6910a4e4ca198414292679cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838b832b3c7bcdc8cafd9ba0293a6eba') in 0.046983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005036 seconds.
+  path: Assets/Animations/ZoomHips.anim
+  artifactKey: Guid(fa85e49902e269948bf5cf2be4927c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ZoomHips.anim using Guid(fa85e49902e269948bf5cf2be4927c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2138ec58e0f4a23592ec77d3de627e6') in 0.005254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052301 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/door_02_NORMAL.png
+  artifactKey: Guid(86466b45efbb4ab4b91fec5f46823844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/door_02_NORMAL.png using Guid(86466b45efbb4ab4b91fec5f46823844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b54524906c64720af5462f14434ed1') in 0.036594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144555 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/axe_01_ALBEDO.png
+  artifactKey: Guid(970899d4bc21f2e45ac89d3e8b8aeff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/axe_01_ALBEDO.png using Guid(970899d4bc21f2e45ac89d3e8b8aeff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1abbc070aa356edb67b6b9dbdd4d90') in 0.011144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085229 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/floor_02_NORMAL.png
+  artifactKey: Guid(4d1bc229010632c428dbd5bee28b1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/floor_02_NORMAL.png using Guid(4d1bc229010632c428dbd5bee28b1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b7057acac6f14b3fd5c198358e594f') in 0.012333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279470 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/fireplace_01_stone_NORMAL.png
+  artifactKey: Guid(11c0d2b90a0f2e04b9a9921558621442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/fireplace_01_stone_NORMAL.png using Guid(11c0d2b90a0f2e04b9a9921558621442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83fb6641dc80020941469e3005bdc14') in 0.011964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051121 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/floor_02_ALBEDO.png
+  artifactKey: Guid(a34c3b58939726f4d802b5a509411039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/floor_02_ALBEDO.png using Guid(a34c3b58939726f4d802b5a509411039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba282394ce88913873f8dc6637a30e7') in 0.011168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338183 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/column_02_NORMAL.png
+  artifactKey: Guid(86a4e5165092ae24088e122c7e355d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/column_02_NORMAL.png using Guid(86a4e5165092ae24088e122c7e355d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f968726b9715a6c5eb22df94da803') in 0.014282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022066 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/shield_01_ALBEDO.png
+  artifactKey: Guid(b4b5dfc2e54e4744c9c96d6362a8b4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/shield_01_ALBEDO.png using Guid(b4b5dfc2e54e4744c9c96d6362a8b4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c52407687deb997de838f94d64bb2df') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151967 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Fireplace_01_stone.mat
+  artifactKey: Guid(ecc534cbfa97e6d438a751227e900ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Fireplace_01_stone.mat using Guid(ecc534cbfa97e6d438a751227e900ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454e121ba978972e3ee5ea30bd07471d') in 0.048732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244295 seconds.
+  path: Assets/Scripts/MaleKnightCustomiser.cs
+  artifactKey: Guid(2009875760c1ece49a306a78517f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaleKnightCustomiser.cs using Guid(2009875760c1ece49a306a78517f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4a1ba3f5b0ffad6ad10bb4d642c360') in 0.004964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195955 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Ornaments/chandelier_01.FBX
+  artifactKey: Guid(52ef270275f8bd34195d267b25770be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Ornaments/chandelier_01.FBX using Guid(52ef270275f8bd34195d267b25770be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe64c797d72d7e5de3a128c44787444') in 0.041939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439826 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_door_02_stone_ALBEDO.png
+  artifactKey: Guid(4525e81a59a4b9543acbc3d9bffb5048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_door_02_stone_ALBEDO.png using Guid(4525e81a59a4b9543acbc3d9bffb5048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4905bbca2e26eebcda5351ab87ad68a') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111372 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_frame_01_stone_ALBEDO.png
+  artifactKey: Guid(6d390c7ea1241634e9c1d2915d169e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_frame_01_stone_ALBEDO.png using Guid(6d390c7ea1241634e9c1d2915d169e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73aae5b0f5014476e497a5e3483b4df0') in 0.009673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084787 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_01_stone_NORMAL.png
+  artifactKey: Guid(02dd6c53ef240d446b99555dc3f2fd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_01_stone_NORMAL.png using Guid(02dd6c53ef240d446b99555dc3f2fd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e0398a6125412eedd2814e9fe15d24') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003596 seconds.
+  path: Assets/MedievalTavernPack/Material/Ornaments/Chandelier_01.mat
+  artifactKey: Guid(34c3f3537d5ee484e8b28afe7dc0fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Ornaments/Chandelier_01.mat using Guid(34c3f3537d5ee484e8b28afe7dc0fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ebbf0c0b7325f87022cb44a354847b') in 0.015492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082900 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_01_stone_ALBEDO.png
+  artifactKey: Guid(7ecc763000ada26489895c6f59a4b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_01_stone_ALBEDO.png using Guid(7ecc763000ada26489895c6f59a4b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6a540eb1ce7071fc65b376029b6cf7') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049965 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/fireplace_01_stone_ALBEDO.png
+  artifactKey: Guid(a34e507d67bbfc44bb0faf9f862d800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/fireplace_01_stone_ALBEDO.png using Guid(a34e507d67bbfc44bb0faf9f862d800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f8b727d23901fc45ae1f4131cee1b1') in 0.009708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028740 seconds.
+  path: Assets/MedievalTavernPack/Material/Ornaments/Axe_01.mat
+  artifactKey: Guid(bb3a6b09902820c4d8bc3a6d4aa413b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Ornaments/Axe_01.mat using Guid(bb3a6b09902820c4d8bc3a6d4aa413b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35af6d9d4ef0366742553d09514dd02') in 0.012476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068850 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Wall_frame_01_stone.mat
+  artifactKey: Guid(ec181c91732c929489a5e36aabd9ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Wall_frame_01_stone.mat using Guid(ec181c91732c929489a5e36aabd9ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cd855929e241afb9668a2e4dc57f51') in 0.013810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081481 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Floor_02.mat
+  artifactKey: Guid(6034d8a0f2766914893af71e67aafd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Floor_02.mat using Guid(6034d8a0f2766914893af71e67aafd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bb68ac7b5d6b80837e32c347d7c82') in 0.014274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.291822 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Column_02.mat
+  artifactKey: Guid(a934731bb04979e4ca6a1e4c4d9273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Column_02.mat using Guid(a934731bb04979e4ca6a1e4c4d9273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5113a268fb883fb0783843bfe2f78923') in 0.013982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048153 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/chandelier_01_NORMAL.png
+  artifactKey: Guid(695b8fb083b26e74ebceba1d1bc2500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/chandelier_01_NORMAL.png using Guid(695b8fb083b26e74ebceba1d1bc2500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a89d6e0e34687896be0f67d38d3fa8') in 0.011548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043627 seconds.
+  path: Assets/Scripts/FemaleKnightCustomiser.cs
+  artifactKey: Guid(6528aac9deea0e244b7b2c9f823af588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FemaleKnightCustomiser.cs using Guid(6528aac9deea0e244b7b2c9f823af588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69fc71526bb09dd31a35ac3b1f16207') in 0.005242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023570 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/axe_01_NORMAL.png
+  artifactKey: Guid(81fdcfc1baf0c0741b105e34c82b75cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/axe_01_NORMAL.png using Guid(81fdcfc1baf0c0741b105e34c82b75cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075afcf5a22f8d020b27dbc71632b4fa') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156225 seconds.
+  path: Assets/Animation Controllers/Main Camera.controller
+  artifactKey: Guid(878e3c0f7c060b543ab8e32151952be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Controllers/Main Camera.controller using Guid(878e3c0f7c060b543ab8e32151952be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c6dc3770eed2e175be72197f8706cc') in 0.008487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.373845 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_door_02_stone_NORMAL.png
+  artifactKey: Guid(0b857f27100886c42b479ec32fb28fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_door_02_stone_NORMAL.png using Guid(0b857f27100886c42b479ec32fb28fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab554e09c9c44dfc43807aa9f579fc6') in 0.012338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280723 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Wall_01_stone.mat
+  artifactKey: Guid(68201ffdc3e45024aa9dc71479ba4d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Wall_01_stone.mat using Guid(68201ffdc3e45024aa9dc71479ba4d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32764912078408a99576ff90a7b937e8') in 0.013059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078026 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/chandelier_01_ALBEDO.png
+  artifactKey: Guid(0d7ec8be54ecd764ea8904ee0ded1d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/chandelier_01_ALBEDO.png using Guid(0d7ec8be54ecd764ea8904ee0ded1d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f73e9cd4788e06bab93866198e4e79') in 0.010024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091237 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2091a61bee64334a0fa11ce226763f') in 0.006059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180982 seconds.
+  path: Assets/MedievalTavernPack/Material/Ornaments/Shield_01.mat
+  artifactKey: Guid(5f536f82d19831643a03184ce889a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Ornaments/Shield_01.mat using Guid(5f536f82d19831643a03184ce889a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6d2dede8917d457dbaab07826efe0b') in 0.012350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030566 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Wall_door_02_stone.mat
+  artifactKey: Guid(341a37376746ebb4fa6c81e42d352300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Wall_door_02_stone.mat using Guid(341a37376746ebb4fa6c81e42d352300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3465c885efb0596bbf7eac7825f8345') in 0.013514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014973 seconds.
+  path: Assets/MedievalTavernPack/Material/Architecture/Door_02.mat
+  artifactKey: Guid(8941c7717e2641f47bbf41ff18fe12ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Architecture/Door_02.mat using Guid(8941c7717e2641f47bbf41ff18fe12ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5d4ca071aae3a7679ea76896607a6') in 0.014447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091818 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/column_02_ALBEDO.png
+  artifactKey: Guid(8afa2e1bd20d9f143b4669a6c9fc8f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/column_02_ALBEDO.png using Guid(8afa2e1bd20d9f143b4669a6c9fc8f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96886006f95cc40dff76e347cebd72e2') in 0.011743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014330 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments/shield_01_NORMAL.png
+  artifactKey: Guid(3df7555bc85584542b8f65acbe6c93bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments/shield_01_NORMAL.png using Guid(3df7555bc85584542b8f65acbe6c93bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b84baf28eefc8021fe92b7d7d2713e') in 0.010350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015068 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.009303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319869 seconds.
+  path: Assets/MedievalTavernPack/Textures/Architecture/wall_frame_01_stone_NORMAL.png
+  artifactKey: Guid(48abe967d54650847832bf7dd0285774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Architecture/wall_frame_01_stone_NORMAL.png using Guid(48abe967d54650847832bf7dd0285774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdbb2fd4b4b8b8fa08ee902a707a1e3') in 0.010672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261787 seconds.
+  path: Assets/Scripts/MaleKnightSO.cs
+  artifactKey: Guid(6a9dbb02484d9304094a1e18d1753ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaleKnightSO.cs using Guid(6a9dbb02484d9304094a1e18d1753ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eb2e0d0f77e9a09dd2308f701dfcee') in 0.004857 seconds 
